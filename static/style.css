@@ -192,7 +192,7 @@ p {
 	border: 1px solid rgb(100,100,100);
 	border-radius: 10px;
 	margin: 15px 0px;
-	font: 60px "Times New Roman", serif;
+	font: 60px Garamond, "Times New Roman", serif;
 	font-weight: bold;
 	padding: 13px 25px;
 }
@@ -513,6 +513,10 @@ a {
 	#welcome-container p {
 		font-size: 24px;
 	}
+
+	#welcome-container {
+		padding: 25vh 12vw;
+	}
 	
 	
 }
@@ -549,7 +553,7 @@ a {
 
 @media screen and (max-width: 600px) {
 	.range-slider {
-		top: calc(350px + 45vw) !important;
+		top: calc(370px + 45vw) !important;
 	}
 
 	.modal-content {
