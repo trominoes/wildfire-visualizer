@@ -192,7 +192,7 @@ p {
 	border: 1px solid rgb(100,100,100);
 	border-radius: 10px;
 	margin: 15px 0px;
-	font: 60px Garamond, Georgia, serif;
+	font: 60px "Times New Roman", serif;
 	font-weight: bold;
 	padding: 13px 25px;
 }
@@ -375,7 +375,8 @@ p {
 
 #welcome-container {
 	opacity: 1;
-	padding: 20vh 15vw;
+	display: flex;
+	align-items: center;
 	text-align: center;
 	
 	transition: all 0.4s ease;
@@ -504,6 +505,7 @@ a {
 
 	.modal-content {
 		margin: 25% 10%;
+		padding: 30px 25px;
 	}
 
 	.graph-legend {
@@ -549,7 +551,7 @@ a {
 
 @media screen and (max-width: 600px) {
 	.range-slider {
-		top: calc(340px + 45vw) !important;
+		top: calc(350px + 45vw) !important;
 	}
 
 	.modal-content {
