@@ -1,0 +1,473 @@
+name,acres,lon,lat,reporter,cause
+KEVINJIK,232828.0,-142.2407,66.7925,Alaska Fire Service,Natural
+POKER BROW,231389.0,-118.499,40.5857,Winnemucca District Office,Natural
+SADLER,199288.0,-116.0009,40.1616,Elko District Office,Natural
+STATE FIRE,158000.0,-80.7665,26.2337,Miccosukee Tribe,Arson/incendiarism
+ANTELOPE 2,139754.6,-117.3437,39.9083,Battle Mountain District Office,Natural
+MULE BUTTE,132208.0,-113.36,43.0774,Idaho Falls District,Natural
+MEGRAM,124898.0,-123.375,41.1025,Shasta-Trinity National Forest,Natural
+TRAILCANYN,95792.8,-116.6365,39.8113,Battle Mountain District Office,Natural
+KINK,92010.0,-142.069,64.3663,Alaska Fire Service,Natural
+UVGOON2,88345.0,-162.4362,67.816,Alaska Fire Service,Natural
+SOMBRERO,80448.3,-118.1676,41.0682,Winnemucca District Office,Natural
+THEDFORD,74500.0,-101.112054,42.1557191,Valentine National Wildlife Refuge,Equipment and vehicle use
+CLOVER,73077.0,-116.9243,41.1427,Elko District Office,Equipment and vehicle use
+DENIO COM,72179.0,-118.5949,41.5374,Winnemucca District Office,Natural
+FRIENDLY,69060.0,-82.395,30.475,National Forests in Florida,Natural
+WILLOW,65000.0,-117.13472222,34.2675,San Bernardino National Forest,Missing data/not specified/undetermined
+GUN 2,60390.0,-121.66222222,40.22,Lassen National Forest,Missing data/not specified/undetermined
+MELOZI MOR,59239.0,-153.517,65.5928,Alaska Fire Service,Natural
+S RAILROAD,58707.4,-112.28472,39.66675,Richfield Field Office,Railroad operations and maintenance
+LOWERLADUE,57576.0,-141.027,63.38389,Tok Area,Natural
+FRENCHIE,54677.0,-116.319,40.4035,Elko District Office,Natural
+GAP/ROUGH CREEK,51627.0,-104.01666667,47.67083333,Custer Gallatin National Forest,Debris and open burning
+HARE,49551.0,-121.50055556,36.01694444,Los Padres National Forest,Natural
+CEDARBUTTE,49364.0,-112.8292,43.3366,Idaho Falls District,Natural
+JESSICA,48759.0,-141.2138,65.1647,Alaska Fire Service,Natural
+ROSE,48479.0,-116.3406,40.6332,Elko District Office,Natural
+NEW PASS,47626.0,-117.5009,39.6333,Carson City District Office,Natural
+FISH 2,47133.0,-119.8749,40.008,Carson City District Office,Natural
+WITCH,46956.0,-141.9357,65.283,Alaska Fire Service,Natural
+LNU SIXTEE,40000.0,-122.3461,38.9616,Northern California District,Arson/incendiarism
+BADGER FIR,40000.0,-119.35027778,41.65111111,Sheldon National Wildlife Refuge,Natural
+PINGO,38174.0,-141.7269,65.615,Alaska Fire Service,Natural
+UPPERWESTF,35874.0,-142.6522,63.583,Alaska Fire Service,Natural
+EAST SLICK,35041.0,-115.35087,42.91542,Boise District,Power generation/transmission/distribution
+BUCKS,34175.0,-121.31666667,39.90166667,Plumas National Forest,Natural
+CHIMNEY,33581.0,-117.0246,41.4968,Winnemucca District Office,Natural
+FISHEL CRK,33000.0,-107.8079,46.6328,Miles City Field Office,Natural
+LONE BUTTE,31624.7,-117.3243,41.0971,Winnemucca District Office,Natural
+PINE,30568.0,-121.07333333,41.70972222,Modoc National Forest,Natural
+CHANNING,30000.0,-101.831836,36.094291,Texas A & M Forest Service,Missing data/not specified/undetermined
+COSGRAVE,28918.0,-118.0515,40.7057,Winnemucca District Office,Natural
+BIG CREEK,28634.0,-154.6859,65.2994,Alaska Fire Service,Natural
+IZZENHOOD,28593.0,-116.927,40.8699,Elko District Office,Natural
+MT.TERREL,27354.0,-141.4157,63.75404,Tok Area,Natural
+BURNOUT,27000.0,-80.8165,26.3337,Seminole Tribe,Natural
+JONES,26202.0,-122.20111111,40.71861111,Shasta-Trinity National Forest,Missing data/not specified/undetermined
+LANG SYNE,24340.0,-117.6385,40.4846,Winnemucca District Office,Equipment and vehicle use
+TASSAJARA,23761.0,-121.61722222,36.26833333,Los Padres National Forest,Natural
+GARCIA,23680.0,-108.8673,31.334,Las Cruces Field Office,Natural
+JUNGO COM,23522.4,-118.5524,41.7524,Winnemucca District Office,Natural
+BIG `OL MONSTER,23202.0,-141.0115,65.58458,Alaska Fire Service - Upper Yukon Zone,Natural
+GRANDVIEW,23006.5,-113.0242,43.088,Idaho Falls District,Natural
+DELAMAR,22591.0,-114.9258,37.175,Ely District Office,Natural
+DUNGLENCOM,22063.0,-117.8124,40.908,Winnemucca District Office,Natural
+RAIN,21729.0,-116.0137,40.6441,Elko District Office,Missing data/not specified/undetermined
+MARSHALL,21643.0,-150.4525,65.4495,Alaska Fire Service,Natural
+WAGON BOX,21623.0,-114.1125,41.8488,Elko District Office,Natural
+BIRCH,20100.0,-144.7858,65.2996,Alaska Fire Service,Natural
+CLARKELEN,20000.0,-105.6367,43.8803,Casper Field Office,Power generation/transmission/distribution
+DONNELLY F,18720.0,-145.669,63.8163,Alaska Fire Service,Arson/incendiarism
+BEVERLY,18521.0,-143.569,64.9663,Alaska Fire Service,Natural
+TOLOVANA,17986.0,-147.9858,65.5496,Alaska Fire Service,Natural
+DEHAVEN,17000.0,-121.83166667,40.30055556,Lassen National Forest,Equipment and vehicle use
+JUMPSPRING,16816.0,-113.7352,36.5928,Arizona Strip Field Office,Natural
+MULECANYON,16812.7,-116.7009,40.5499,Battle Mountain District Office,Natural
+WEDGEBUTTE,16266.3,-114.31121,43.23912,Twin  Falls District,Equipment and vehicle use
+HARCUVAR,15980.0,-113.4233,34.06067,Colorado River District,Natural
+DIDOCOMPLE,15735.0,-115.7759,40.4938,Elko District Office,Natural
+LOCKWOOD,15584.0,-119.66666666,39.48333333,Nevada Division of Forestry - Western Region,Missing data/not specified/undetermined
+SANDSPRGS,15360.0,-118.14308,39.20265,Carson City District Office,Debris and open burning
+SPANISH,14537.0,-119.97722222,35.04555556,Los Padres National Forest,Equipment and vehicle use
+HORSECREEK,14315.0,-116.489,40.1977,Elko District Office,Natural
+HICKORY IS,14128.0,-82.385,30.8347222,Okefenokee National Wildlife Refuge,Debris and open burning
+BOHEMOTASH,14090.0,-122.4675,40.78361111,Shasta-Trinity National Forest,Natural
+JUNIPER,14000.0,-116.29584,34.00251,Joshua Tree National Monument,Natural
+MUSTY #3                 ,13652.0,-121.72194444,39.83611111,Butte Unit,Natural
+ROCHESTER,13325.0,-118.1676,40.3166,Winnemucca District Office,Natural
+BEAVER CRE,13214.0,-147.1031,65.7515,Alaska Fire Service,Natural
+FIVE,12960.0,-121.63444444,36.21805556,Los Padres National Forest,Natural
+G VALLEY 1,12450.0,-117.5382,40.5896,Winnemucca District Office,Natural
+AVANCE,12000.0,-102.21719,44.98747,South Dakota Wildland Fire Suppression,Power generation/transmission/distribution
+BASS RIVER,11765.0,-74.42083,39.69584,New Jersey Forest Fire Service,Equipment and vehicle use
+PENDOLA,11725.0,-121.08638889,39.47138889,Tahoe National Forest,Other causes
+N PARKCPLX,11705.4,-119.6149,37.9308,Yosemite National Park,Natural
+NOSCHOOL2,11271.0,-114.2342,41.5833,Elko District Office,Recreation and ceremony
+PINEY,11000.0,-116.4506,40.0488,Elko District Office,Natural
+BTU DOE 2,10857.0,-121.7361,39.73488,Northern California District,Natural
+WELCHES CR,10816.0,-116.2937,40.8427,Elko District Office,Natural
+ANACONDA,10812.0,-114.128,48.64516,Glacier National Park,Natural
+CYANCO,10619.0,-117.9946,40.8507,Winnemucca District Office,Natural
+PAH RAH,10600.0,-119.7785,39.5696,Carson City District Office,Missing data/not specified/undetermined
+MCARTHURCREEK,10233.0,-141.1324,63.25167,Tok Area,Natural
+MAX FISH CAMP,10000.0,-80.45,26.04,Florida Forest Service,Natural
+DRY,10000.0,-119.87437,40.29656,Northern California District,Natural
+BLUEGARDEN,10000.0,-114.2622,37.2558,Ely District Office,Natural
+ANTELOPE,10000.0,-105.46944444,43.45138889,"Medicine Bow-Routt National Forests, Thunder Basin National Grassland",Equipment and vehicle use
+TETTHAJIK,9421.0,-141.4121,66.6831,Alaska Fire Service,Natural
+CEDAR 2,9283.0,-117.1343,40.0833,Battle Mountain District Office,Natural
+BULLHEAD,9000.0,-101.31742,43.78248,Trail City Volunteer Fire Department,Power generation/transmission/distribution
+FM 767 FIRE,8927.0,-102.86348942,35.63279873,Texas A & M Forest Service,Missing data/not specified/undetermined
+PASS CRK,8834.0,-118.6335,41.6499,Winnemucca District Office,Natural
+WEST MOUNTAIN 2,8826.0,-111.81666667,40.08333333,Uinta-Wasatch-Cache National Forest,Missing data/not specified/undetermined
+SELLEM/USFS#5,8312.0,-115.43333333,38.26666667,Humboldt-Toiyabe National Forest,Missing data/not specified/undetermined
+SHOSHONE,8000.0,-117.7412,39.7491,Carson City District Office,Natural
+ROUGH CRK,7979.0,-103.28611111,47.725,Custer Gallatin National Forest,Power generation/transmission/distribution
+NORTON CREEK,7878.0,-114.84972222,44.86388889,Salmon-Challis National Forest,Natural
+JOHNSTONE,7800.0,-104.83541,46.02556,Eastern Land Office,Power generation/transmission/distribution
+WOOD RIVER,7736.0,-141.9192,65.9664,Alaska Fire Service,Natural
+WILLOW,7700.0,-120.6444,40.55989,Northern California District,Missing data/not specified/undetermined
+SHOOFLY,7502.0,-116.30516,42.26626,Boise District,Natural
+EUGENE,7224.3,-118.1674,40.7816,Winnemucca District Office,Natural
+BRIDGE,7200.0,-117.85,34.23361111,Angeles National Forest,Arson/incendiarism
+WHISKEYBT,7186.8,-113.48486,42.86641,Twin  Falls District,Natural
+RED ROCK,7015.0,-119.8752,39.7602,Carson City District Office,Equipment and vehicle use
+WILCOX 2,7000.0,-119.501,39.6332,Carson City District Office,Natural
+OUTLOOK,6952.0,-104.87477,48.88902,Northeastern Land Office,Railroad operations and maintenance
+MIDBUTTE 1,6908.0,-115.35396,42.13564,Boise District,Natural
+DENNISON,6891.0,-142.4689,63.583,Alaska Fire Service,Natural
+LA_JOLLA,6800.0,-116.85694444,33.27388889,Cleveland National Forest,Debris and open burning
+COW HOUSE,6675.0,-84.43333333,30.26666667,National Forests in Florida,Debris and open burning
+PAT PETERSON,6500.0,-101.08983,45.81136,Isabel Volunteer Fire Department,Power generation/transmission/distribution
+POWDER COM,6480.0,-105.4355,45.7517,Miles City Field Office,Natural
+BOX CANYON,6476.0,-110.6784,32.16982,Saguaro National Park,Natural
+DOE,6455.0,-115.32137,42.46043,Boise District,Natural
+WILLIAM'S RANCH FIRE,6213.0,-98.79565001,31.10695053,Texas A & M Forest Service,Missing data/not specified/undetermined
+PAH FLATS,6183.0,-156.1693,66.5328,Alaska Fire Service,Natural
+HEHE FIRE,6172.0,-121.4634,44.9479,Warm Springs Agency,Debris and open burning
+SPRING                   ,6140.0,-122.13111111,40.38194444,Tehama-Glenn Unit,Natural
+TUNG HOUSE,6028.1,-118.0515,40.7493,Winnemucca District Office,Natural
+POCO,5985.0,-118.3232,39.6277,Carson City District Office,Natural
+JOE TILL,5900.0,-104.02765,45.59584,Ludlow Volunteer Fire Department,Equipment and vehicle use
+BEAR CREEK,5803.0,-146.8692,65.4663,Alaska Fire Service,Natural
+ROUNDABOUT,5763.0,-156.4692,65.5827,Alaska Fire Service,Natural
+JACKASS,5760.0,-122.43444444,40.83555556,Shasta-Trinity National Forest,Natural
+RESERVOIR,5742.0,-119.8344,39.6277,Carson City District Office,Power generation/transmission/distribution
+HELLSGALE,5703.0,-101.4207,45.5033,Standing Rock Agency,Power generation/transmission/distribution
+MARQUETTE9,5625.0,-87.96053684,46.42782336,Michigan Department of Natural Resources,Missing data/not specified/undetermined
+SUGAR,5440.0,-122.43555556,40.86583333,Shasta-Trinity National Forest,Natural
+GRAY,5320.0,-93.7563889,29.9488889,Sabine National Wildlife Refuge,Debris and open burning
+SHIRTTAIL,5237.0,-118.3676,39.5374,Carson City District Office,Natural
+FT HAMLIN,5184.0,-149.9526,66.0495,Alaska Fire Service,Natural
+BLITZ,5142.2,-117.4093,40.1519,Battle Mountain District Office,Natural
+MCCOY CREEK,5100.0,-146.3408,64.46288,Fairbanks Area,Natural
+BROKE WAGO,5026.0,-115.79506,42.64555,Boise District,Natural
+INKS,5021.0,-122.113769,40.309011,Northern California District,Natural
+T-FOUR,5000.0,-103.99299621,35.26520156,New Mexico State Forestry Division,Missing data/not specified/undetermined
+DOF 122,5000.0,-81.54333333,26.15583333,Florida Panther National Wildlife Refuge,Missing data/not specified/undetermined
+FAKPF#1,5000.0,-81.45833333,26.05,Florida Panther National Wildlife Refuge,Missing data/not specified/undetermined
+DEGARMO CY,5000.0,-119.70555556,42.54972222,Hart Mountain National Antelope Refuge,Recreation and ceremony
+GIWW ARSON,5000.0,-94.2,29.65,McFaddin National Wildlife Refuge,Arson/incendiarism
+MALLARDLK,4897.3,-114.14668,42.83343,Twin  Falls District,Debris and open burning
+RAVE,4820.0,-120.06438,40.7799,Northern California District,Natural
+SHEEP CR,4812.0,-117.09,44.65,Payette National Forest,Recreation and ceremony
+IMPACT SE,4802.0,-115.55285,42.70625,Boise District,Debris and open burning
+PIEGEON,4713.0,-121.03333333,39.83416667,Plumas National Forest,Natural
+YELLOW,4669.0,-121.6325,41.75305556,Modoc National Forest,Natural
+LITTLE BIG,4652.0,-115.65348,42.6122,Boise District,Natural
+SCHYLER FORK,4637.0,-81.32292761,38.13542384,West Virginia Division of Forestry,Fireworks
+HUNTER,4563.0,-115.9179,40.8513,Elko District Office,Debris and open burning
+STILLWATER,4552.0,-118.3793,39.5988,Carson City District Office,Natural
+STONEHOUSE,4544.9,-118.4027,42.8782,Burns District,Natural
+2A COMMAND,4500.0,-80.45,26.43333333,Florida Forest Service,Natural
+PETERSON,4500.0,-113.238,41.7558,Salt Lake Field Office,Natural
+SIGNBOARD,4433.5,-114.1367,41.7505,Elko District Office,Recreation and ceremony
+LAGUNA_100,4416.0,-116.41666667,32.88,Cleveland National Forest,Arson/incendiarism
+CHRISTMAS,4400.0,-109.75011,45.66886,Southern Land Office,Power generation/transmission/distribution
+RAINBOW,4382.6,-109.9673,33.8667,Fort Apache Agency,Arson/incendiarism
+HODZANA,4380.0,-149.8026,66.5329,Alaska Fire Service,Natural
+RANCH,4371.0,-119.12972222,34.45055556,Los Padres National Forest,Fireworks
+CLAY PIT,4367.0,-111.8933,40.22809,Salt Lake Field Office,Missing data/not specified/undetermined
+HORTON_2,4336.0,-120.35083333,39.88472222,Plumas National Forest,Equipment and vehicle use
+LODGEPOLE,4233.0,-115.13333333,45.35222222,Payette National Forest,Natural
+RUSH,4101.0,-112.42012,40.45599,Salt Lake Field Office,Natural
+TURTLE,4035.0,-117.5275,34.35083333,San Bernardino National Forest,Equipment and vehicle use
+PILOT,4028.0,-120.0175,37.82305556,Stanislaus National Forest,Power generation/transmission/distribution
+CEMETARY,3930.0,-120.14083333,39.8025,Plumas National Forest,Missing data/not specified/undetermined
+KIVALINA,3920.0,-164.2196,68.0827,Alaska Fire Service,Natural
+PINE RIDGE,3900.0,-107.85608,45.95303,Southern Land Office,Natural
+SHOCKEY,3880.0,-116.4361,32.6164,California Desert District,Debris and open burning
+MINTO,3876.0,-149.3691,65.1495,Alaska Fire Service,Debris and open burning
+LITTLE RAMEY,3863.0,-115.13333333,45.24666667,Payette National Forest,Natural
+JIGGS,3840.0,-115.8,40.48333333,Elko District Office,Natural
+MILL IRON,3800.0,-104.0663,45.81,Miles City Field Office,Equipment and vehicle use
+HORSE CR,3763.0,-117.0276,42.8052,Vale District,Missing data/not specified/undetermined
+KOCACHO,3747.0,-146.136,67.283,Alaska Fire Service,Natural
+EAGLE CANYON,3744.0,-111.45,41.03333333,Northwest Area,Missing data/not specified/undetermined
+CEDARS,3737.0,-117.1945,40.0255,Battle Mountain District Office,Natural
+WILSONGUL,3709.1,-113.92618,42.09624,Twin  Falls District,Debris and open burning
+LAURELL BRANCH,3706.0,-81.13378904,38.16472218,West Virginia Division of Forestry,Fireworks
+LNG HOLLOW,3626.0,-118.9477,42.3282,Burns District,Natural
+SHANNON,3600.0,-118.2029,34.5333,California Desert District,Debris and open burning
+BOOTHEEL,3520.0,-108.92780303,31.33239936,New Mexico State Forestry Division,Missing data/not specified/undetermined
+DRY CYN,3503.0,-113.9361,41.7846,Salt Lake Field Office,Natural
+SNIDER,3500.0,-103.87470245,36.28290176,New Mexico State Forestry Division,Missing data/not specified/undetermined
+TABLE MTN,3500.0,-116.3926,39.7288,Battle Mountain District Office,Natural
+NORTH UNIT,3500.0,-94.0917,29.75,McFaddin National Wildlife Refuge,Missing data/not specified/undetermined
+LNU RUMSEY,3500.0,-122.25396,38.88779,Northern California District,Missing data/not specified/undetermined
+HORSE THIE,3500.0,-108.791,46.4752,Miles City Field Office,Natural
+MARSH FORK,3484.0,-81.50568398,37.83023533,West Virginia Division of Forestry,Arson/incendiarism
+MATE CREEK,3475.0,-82.12074806,37.61688798,West Virginia Division of Forestry,Arson/incendiarism
+LA JARA,3382.0,-107.66722222,35.28388889,Cibola National Forest,Arson/incendiarism
+FULTON CREEK,3358.0,-81.37750198,37.94602859,West Virginia Division of Forestry,Fireworks
+N FORK DAG,3348.0,-152.1354,65.6998,Alaska Fire Service,Natural
+BRUCHY CREEK,3328.0,-81.78013831,38.13372747,West Virginia Division of Forestry,Arson/incendiarism
+MIXING,3300.0,-116.75194444,33.68555556,San Bernardino National Forest,Arson/incendiarism
+I-DO,3300.0,-104.32849884,35.04859924,New Mexico State Forestry Division,Missing data/not specified/undetermined
+LITTLEHOLE,3216.0,-109.1687,39.0361,Moab Field Office,Natural
+CEDAR VALLEY,3200.0,-112.01535,40.23941,Utah Division Forestry Fire State Lands,Missing data/not specified/undetermined
+CRUMP,3200.0,-119.7863,42.2432,Lakeview District,Natural
+PILOT,3200.0,-114.2342,40.8777,Elko District Office,Natural
+TROUT CREEK II,3189.0,-114.06361111,41.97694444,Sawtooth National Forest,Arson/incendiarism
+BIG JARRELL,3171.0,-81.63095885,37.95581176,West Virginia Division of Forestry,Fireworks
+LOSTMAN'S,3155.0,-81.147694,25.526833,Everglades National Park,Natural
+SIRUK CREE,3132.0,-153.8443,66.7062,Alaska Fire Service,Natural
+POWELL CREEK,3082.0,-81.81586356,38.01154467,West Virginia Division of Forestry,Arson/incendiarism
+HIGH,3082.0,-122.30138889,40.95138889,Shasta-Trinity National Forest,Natural
+RAINBO QUR,3027.0,-121.3512,45.0498,Warm Springs Agency,Recreation and ceremony
+MCKINLEY FIRE,3000.0,-96.53917296,48.92262544,Minnesota Department of Natural Resources,Arson/incendiarism
+LAKE 2,2928.0,-120.42458,41.63718,Northern California District,Missing data/not specified/undetermined
+MITCHELL CREEK,2926.0,-115.65055556,40.15222222,Humboldt-Toiyabe National Forest,Natural
+2-RIVERS,2918.0,-118.333095,47.911125,Spokane Agency,Debris and open burning
+KAMMA,2887.0,-118.6527,40.8282,Winnemucca District Office,Natural
+HIRAM,2843.0,-119.88333333,38.45027778,Stanislaus National Forest,Natural
+GRAND CREE,2698.0,-153.7075,64.62,Alaska Fire Service,Natural
+DEER CK,2684.0,-116.75965,42.87179,Boise District,Natural
+ANKLE CR,2677.7,-118.6677,42.5532,Burns District,Debris and open burning
+LOOKOUT,2630.0,-121.08555556,39.83388889,Plumas National Forest,Natural
+OWL CREEK,2624.0,-84.49833333,30.16833333,National Forests in Florida,Debris and open burning
+MALOTT,2608.0,-119.7426,48.2885,Spokane District,Power generation/transmission/distribution
+BRAMIERS,2607.0,-108.4734,38.1678,"Southwest District, Montrose",Natural
+BRIGHAMPT,2599.7,-113.49996,42.9225,Twin  Falls District,Natural
+BTU BLOOM,2590.0,-121.47441,39.64822,Northern California District,Natural
+COYOTE,2585.0,-108.1339,33.5681,Las Cruces Field Office,Power generation/transmission/distribution
+CANYON 4,2580.0,-122.399281,40.495539,Northern California District,Equipment and vehicle use
+ELLIOT,2576.0,-117.41805556,34.31666667,San Bernardino National Forest,Power generation/transmission/distribution
+RICHBAR COMPLEX,2570.0,-118.7,35.48333333,Sequoia National Forest,Missing data/not specified/undetermined
+CONDOR 2,2537.0,-114.3175,37.8666,Ely District Office,Arson/incendiarism
+PONY ROAD,2528.0,-112.8114,40.0869,Salt Lake Field Office,Firearms and explosives use
+DEEPLAKE1,2520.0,-81.2631,26.0289,Big Cypress National Preserve,Debris and open burning
+TEDDY CREEK,2516.0,-112.4,44.85222222,Beaverhead-Deerlodge National Forest,Equipment and vehicle use
+BUCK,2513.0,-115.30882,42.39665,Boise District,Natural
+NORTH FORT,2500.0,-103.55000305,33.09000015,New Mexico State Forestry Division,Missing data/not specified/undetermined
+INTERNATIONAL PAPER,2500.0,-88.81916667,30.58555556,National Forests in Mississippi,Arson/incendiarism
+UNIT 4,2500.0,-94.0833,29.7,McFaddin National Wildlife Refuge,Smoking
+STONEHENGE,2500.0,-120.91666666,45.63333333,Southeast Region-Department of Natural Resources,Missing data/not specified/undetermined
+DRY,2490.0,-112.12,43.0613,Idaho Falls District,Arson/incendiarism
+IMPACT,2484.0,-80.83333333,34.01666666,Fort Jackson Army Training Center,Missing data/not specified/undetermined
+HENZEL,2475.0,-115.6903,40.5091,Elko District Office,Natural
+BIG CROW,2475.0,-101.9868,43.3314,Pine Ridge Agency,Arson/incendiarism
+DIVISION,2450.0,-118.31638889,36.93472222,Inyo National Forest,Debris and open burning
+HALLOWEEN,2436.0,-105.5397,48.1067,Fort Peck Agency,Railroad operations and maintenance
+HORSECRK 2,2400.0,-114.235,41.8355,Elko District Office,Natural
+QUEASY,2400.0,-115.10583333,44.03694444,Sawtooth National Forest,Natural
+DOF#480,2400.0,-81.49305556,25.97888889,Florida Panther National Wildlife Refuge,Missing data/not specified/undetermined
+SALMON TR,2400.0,-141.1293,67.0431,Alaska Fire Service,Natural
+ARRASTRA,2400.0,-114.2025,34.5681,Colorado River District,Missing data/not specified/undetermined
+KINGSCROWN,2395.4,-115.23121,43.02625,Twin  Falls District,Power generation/transmission/distribution
+RAINBOW RA,2392.0,-114.5175,37.31663,Ely District Office,Natural
+GLACIER,2342.0,-146.5025,65.8829,Alaska Fire Service,Natural
+RAILROAD,2301.7,-112.154,39.88215,Richfield Field Office,Railroad operations and maintenance
+SPARKCPLX,2299.0,-119.5835,37.6288,Yosemite National Park,Natural
+MIRA LOMA,2297.0,-119.71666666,39.43333333,Nevada Division of Forestry - Western Region,Missing data/not specified/undetermined
+ANDORNO,2249.0,-117.7676,41.3499,Winnemucca District Office,Missing data/not specified/undetermined
+SIARD RANC,2233.0,-117.616,40.3996,Winnemucca District Office,Natural
+SOLDIER CREEK,2228.0,-115.20111111,44.60111111,Salmon-Challis National Forest,Natural
+RAWHIDE 2,2226.0,-112.3236,43.0871,Idaho Falls District,Natural
+TELEPHONE,2208.0,-105.7339,33.1334,Mescalero Agency,Missing data/not specified/undetermined
+SHOP RUNII,2206.0,-78.7514,38.1868,Shenandoah National Park,Debris and open burning
+TURKEY,2176.0,-111.11666667,34.71694444,Coconino National Forest,Natural
+EDGAR FIRE,2173.0,-108.761482,45.462337,Southern Land Office,Missing data/not specified/undetermined
+SOLEN,2160.0,-100.7707,46.3283,Standing Rock Agency,Smoking
+TOMS CYN,2152.0,-108.9507,39.0233,"Northwest District, Grand Junction",Natural
+BLKRDG CMP,2148.0,-108.9507,39.0233,"Northwest District, Grand Junction",Natural
+HOG HEAD,2140.0,-153.9027,66.7662,Alaska Fire Service,Natural
+FRITZ SPUR,2109.0,-115.57565,42.66612,Boise District,Equipment and vehicle use
+OFF REFUGE,2100.0,-80.90555556,28.56583333,Merritt Island National Wildlife Refuge,Natural
+SCHOOLHOUSE GULCH,2100.0,-119.46811,44.45643,John Day Unit,Debris and open burning
+THOMPSON BRANCH,2090.0,-82.16271346,37.98906821,West Virginia Division of Forestry,Arson/incendiarism
+KILIOVILIK,2061.0,-157.2527,66.6161,Alaska Fire Service,Natural
+WEST MOUNTAIN,2059.0,-111.82944444,40.02527778,Uinta-Wasatch-Cache National Forest,Arson/incendiarism
+PIGEON ROOST,2048.0,-83.975,34.68888889,Chattahoochee-Oconee National Forest,Arson/incendiarism
+TURKEY STAMP,2040.0,-83.9375,34.71666667,Chattahoochee-Oconee National Forest,Arson/incendiarism
+KUNS BRANCH,2033.0,-81.2356306,38.34661428,West Virginia Division of Forestry,Arson/incendiarism
+SYCAMORE #2              ,2005.0,-121.75888888,39.80611111,Butte Unit,Natural
+TURNER,2000.0,-105.375,43.56861111,"Medicine Bow-Routt National Forests, Thunder Basin National Grassland",Railroad operations and maintenance
+HOLSER CA VNC 18889,2000.0,-118.71666666,34.45,California Southern Region Operations,Missing data/not specified/undetermined
+IRON,2000.0,-107.7006,33.5001,Las Cruces Field Office,Equipment and vehicle use
+LONE,2000.0,-103.63629913,33.33660125,New Mexico State Forestry Division,Missing data/not specified/undetermined
+FIRST CRK,2000.0,-117.0198,41.4946,Elko District Office,Natural
+MILLER RANCH,2000.0,-119.35,46.15,Southeast Region-Department of Natural Resources,Missing data/not specified/undetermined
+SHU LOWDEN,2000.0,-122.8545,40.6882,Northern California District,Debris and open burning
+JAMESON LK,2000.0,-119.6512,47.5999,Spokane District,Natural
+YELLOW BEAR,2000.0,-99.64934,45.24185,Kadoka Volunteer Fire Department,Missing data/not specified/undetermined
+CYPRESS CREEK,2000.0,-82.355,30.33666667,National Forests in Florida,Arson/incendiarism
+ROMERO                   ,2000.0,-121.09611111,37.07888888,Merced-Mariposa Unit,Equipment and vehicle use
+HAMMOCKISL,2000.0,-76.3,34.93333333,Cedar Island National Wildlife Refuge,Natural
+HARLEY,2000.0,-107.77649688,32.72679901,New Mexico State Forestry Division,Missing data/not specified/undetermined
+HOUSE 80,1992.0,-117.6243,41.9546,Winnemucca District Office,Missing data/not specified/undetermined
+SAMARIA,1980.0,-112.27549,41.94994,Utah Division Forestry Fire State Lands,Equipment and vehicle use
+REPEATER,1980.0,-124.11777778,42.10083333,Rogue River-Siskiyou National Forest,Arson/incendiarism
+SILENT,1955.0,-113.8941,37.228,Cedar City Field Office,Natural
+DUCK,1950.0,-93.5669444,29.8511111,Sabine National Wildlife Refuge,Debris and open burning
+TEXAS,1942.0,-113.302,44.6002,Idaho Falls District,Natural
+BEECH CREEK,1940.0,-82.00548257,37.62288425,West Virginia Division of Forestry,Arson/incendiarism
+HWY 36,1909.2,-112.3977,40.2605,Salt Lake Field Office,Equipment and vehicle use
+MILL,1883.1,-118.60099,40.5999,Winnemucca District Office,Debris and open burning
+TUNNELCAMP,1860.0,-118.1857,40.7918,Winnemucca District Office,Natural
+THOMAS,1842.0,-120.50111111,42.28416667,Fremont-Winema National Forest,Firearms and explosives use
+SOAP CREEK,1836.0,-116.2842,40.7866,Elko District Office,Natural
+WILDCAT,1809.0,-112.98495,41.81846,Salt Lake Field Office,Natural
+FLAT,1807.0,-112.81049,40.91683,Salt Lake Field Office,Natural
+DOF 232,1800.0,-81.52972222,26.31416667,Florida Panther National Wildlife Refuge,Missing data/not specified/undetermined
+GAULEY MT2,1800.0,-81.091773,38.180223,New River Gorge National River,Arson/incendiarism
+DOF 124,1800.0,-81.54305556,26.11638889,Florida Panther National Wildlife Refuge,Missing data/not specified/undetermined
+TUNGSTON,1789.0,-118.1246,40.7666,Winnemucca District Office,Equipment and vehicle use
+FORTUNE,1782.0,-101.1065,43.6925,Rosebud Agency,Power generation/transmission/distribution
+RABBIT VLY,1770.0,-108.984,39.1397,"Northwest District, Grand Junction",Natural
+MOSES FORK,1769.0,-82.14787449,37.86240724,West Virginia Division of Forestry,Arson/incendiarism
+INDIAN GRA,1734.0,-141.2358,65.5664,Alaska Fire Service,Natural
+CORN,1723.0,-104.89653,33.60125,Roswell Field Office,Natural
+CAN HILL,1720.0,-100.859,43.2422,Rosebud Agency,Misuse of fire by a minor
+CONDOR,1697.0,-114.36416,37.83163,Ely District Office,Missing data/not specified/undetermined
+WILSONBT,1684.8,-114.15907,42.7651,Twin  Falls District,Natural
+CUB BRANCH,1678.0,-82.25474679,37.93684097,West Virginia Division of Forestry,Arson/incendiarism
+REPTILE,1674.0,-122.51694444,40.96888889,Shasta-Trinity National Forest,Natural
+BOUNDARY 1,1672.0,-111.1135,42.0674,Idaho Falls District,Debris and open burning
+BACON HOLLOW,1666.0,-81.45981746,37.93400986,West Virginia Division of Forestry,Fireworks
+PIUTE,1648.0,-119.2743,39.9052,Winnemucca District Office,Smoking
+MEXICO 8,1645.0,-111.12166667,31.355,Coronado National Forest,Recreation and ceremony
+GUKHZENA C,1640.0,-154.5526,66.5328,Alaska Fire Service,Natural
+TIMME RANC,1637.0,-119.3461,48.1399,Colville Agency,Power generation/transmission/distribution
+DEAD HORSE,1628.3,-118.9213,40.5524,Winnemucca District Office,Natural
+ELY FORK,1624.0,-81.88501937,38.201478,West Virginia Division of Forestry,Arson/incendiarism
+BAXTER,1621.0,-115.31805556,40.61805556,Humboldt-Toiyabe National Forest,Natural
+WAPI,1610.1,-113.13167,42.77018,Twin  Falls District,Natural
+DRY CANYON,1600.0,-114.337,41.6499,Elko District Office,Natural
+DOUG DAHL,1600.0,-103.16489,45.72578,Camp Crook Volunteer Fire Department,Equipment and vehicle use
+DOLAN FORK,1596.0,-81.66610401,38.00311535,West Virginia Division of Forestry,Fireworks
+CALICA LRG,1587.7,-121.2762,44.8748,Warm Springs Agency,Arson/incendiarism
+BOOTENSGAP,1579.0,-78.44349,38.46601,Shenandoah National Park,Arson/incendiarism
+BTU SOUTH,1572.0,-121.41941,39.53322,Northern California District,Natural
+BROWN,1565.0,-80.727082,25.422778,Everglades National Park,Natural
+PINE,1562.0,-116.81916667,33.86666667,San Bernardino National Forest,Arson/incendiarism
+SAND MTN,1545.0,-112.44912,39.63582,Richfield Field Office,Missing data/not specified/undetermined
+BREECH CREEK,1544.0,-82.01253633,37.61660485,West Virginia Division of Forestry,Arson/incendiarism
+LUNCH,1533.0,-122.46777778,40.91722222,Shasta-Trinity National Forest,Natural
+WRIGLEY,1531.0,-109.09209,38.98508,Moab Field Office,Natural
+COTTONWOOD,1526.8,-113.44317,42.12015,Twin  Falls District,Natural
+LITTLE WHITE OAK,1516.0,-81.54431254,38.0606127,West Virginia Division of Forestry,Arson/incendiarism
+KENSINGTON,1500.0,-98.83333333,39.83333333,Kirwin National Wildlife Refuge,Debris and open burning
+MAVERICK,1500.0,-115.3175,39.9666,Ely District Office,Natural
+N. EAST CORNER,1500.0,-105.624444,48.1025,Northeastern Land Office,Missing data/not specified/undetermined
+REIMER,1500.0,-111.96861111,34.38388889,Prescott National Forest,Natural
+ANDERSON,1500.0,-101.16969,43.4981,Long Valley Volunteer Fire Department,Missing data/not specified/undetermined
+BEAN,1475.0,-121.29138889,39.62916667,Plumas National Forest,Natural
+VIRGIN,1450.0,-118.6224,41.8605,Winnemucca District Office,Natural
+DEVILS GAP,1450.0,-121.05083333,39.68444444,Plumas National Forest,Natural
+AVEY CREEK,1450.0,-83.92027778,35.39722222,National Forests in North Carolina,Debris and open burning
+SQUAWCRK 2,1429.0,-112.6428,42.653,Idaho Falls District,Natural
+LINCOLN,1415.0,-117.1185,43.8749,Vale District,Natural
+COLT KILLED CREEK,1414.0,-114.50805556,46.40055556,Nez Perce - Clearwater National Forests,Natural
+LIMEHILLS,1411.0,-113.7352,36.9239,Arizona Strip Field Office,Natural
+GRASS 25,1400.0,-96.80148,43.38484,McLaughlin Volunteer Fire Department,Debris and open burning
+STORM RIDGE,1400.0,-114.64833333,45.62,Bitterroot National Forest,Natural
+BLACKBURN,1400.0,-104.06140136,35.57040023,New Mexico State Forestry Division,Missing data/not specified/undetermined
+ROCK #4                  ,1400.0,-121.87,40.43888888,Shasta-Trinity Unit,Natural
+BUCK CRK,1400.0,-119.90663,43.73653,Prineville District,Natural
+WAGONROAD,1384.0,-108.5109,39.775,"Northwest District, Craig",Debris and open burning
+JONES,1379.0,-108.984,39.05,"Northwest District, Grand Junction",Natural
+RED  (CA-TGU-1711),1375.0,-122.46666666,40.1,Northern Region Administration,Missing data/not specified/undetermined
+FAIRVIEW,1373.2,-117.3509,40.6521,Winnemucca District Office,Fireworks
+FIFTH MILE,1367.0,-81.41944559,37.99456513,West Virginia Division of Forestry,Fireworks
+BATTLE CREEK,1355.0,-107.18861111,41.0325,"Medicine Bow-Routt National Forests, Thunder Basin National Grassland",Missing data/not specified/undetermined
+MT EMMA,1350.0,-113.1644,36.2966,Arizona Strip Field Office,Natural
+FORT LEWIS MOUNTAIN,1349.0,-80.0917,37.325,Virginia Department of Forestry,Arson/incendiarism
+JCT 290,1345.0,-117.6243,41.4455,Winnemucca District Office,Natural
+ROUND LAKE,1333.0,-153.8514,64.6478,Alaska Fire Service,Natural
+I86MP4,1330.2,-113.45519,42.57651,Twin  Falls District,Equipment and vehicle use
+OUTLAW,1329.3,-107.012,43.6147,Casper Field Office,Natural
+PHIPPS,1327.0,-101.1921,43.5917,Rosebud Agency,Equipment and vehicle use
+HOUGH&JUHL,1320.0,-97.2658,48.8142,Devil's Lake Wetland Management District,Debris and open burning
+CACTUS,1319.0,-95.8083,28.762,Big Boggy National Wildlife Refuge,Natural
+GEYERS  (CA-LNU-6468),1300.0,-122.08333333,38.06666666,Northern Region Administration,Missing data/not specified/undetermined
+SANDAL,1300.0,-112.57779,41.6403,Utah Division Forestry Fire State Lands,Natural
+AJAX,1300.0,-116.3112,40.9969,Elko District Office,Natural
+DENIO N,1296.0,-118.6493,41.9255,Winnemucca District Office,Natural
+PURGATORY,1285.0,-79.6983,37.53,Virginia Department of Forestry,Equipment and vehicle use
+THE SCALES,1284.0,-116.05689,43.42907,Boise District,Power generation/transmission/distribution
+GRORGE HIL,1282.0,-82.13790626,37.61266779,West Virginia Division of Forestry,Arson/incendiarism
+BURNSIDE BRANCH,1282.0,-81.69390824,38.08893541,West Virginia Division of Forestry,Arson/incendiarism
+SHEEP #1,1280.0,-122.5025,40.86916667,Shasta-Trinity National Forest,Natural
+PITTMAN,1275.0,-102.8185,43.1375,Pine Ridge Agency,Equipment and vehicle use
+CAMELOT,1264.0,-112.25101,36.30693,Grand Canyon National Park,Natural
+GOLDIE DEADEN,1261.0,-83.96972222,35.35277778,National Forests in North Carolina,Debris and open burning
+GLORIA,1250.0,-116.4342,32.6001,California Desert District,Debris and open burning
+STARKS,1250.0,-93.7647222,29.8466667,Sabine National Wildlife Refuge,Natural
+STABLE,1246.0,-106.76694444,35.83361111,Santa Fe National Forest,Debris and open burning
+COPPER CAMP,1239.0,-115.17833333,45.18666667,Payette National Forest,Natural
+MCDONALD,1236.0,-114.4993,47.3638,Flathead Agency,Smoking
+ALLEX CREEK,1231.05,-109.0354,45.6549,Southern Land Office,Natural
+MEADOW SP,1226.0,-113.90415,38.32913,Cedar City Field Office,Arson/incendiarism
+EASTCANYON,1205.0,-114.4436,41.6863,Elko District Office,Natural
+DOG VALLEY,1204.0,-112.4508,38.0833,Cedar City Field Office,Arson/incendiarism
+SIX MILE,1202.0,-110.77083333,45.2625,Custer Gallatin National Forest,Missing data/not specified/undetermined
+W.MARSH1,1200.0,-81.42083333,29.07611111,Lake Woodruff National Wildlife Refuge,Arson/incendiarism
+RANGE                    ,1200.0,-121.72194444,37.22305555,Santa Clara Unit,Equipment and vehicle use
+WESSEL RANCH,1200.0,-107.93402,46.36288,Southern Land Office,Equipment and vehicle use
+P.G.&E. #22              ,1200.0,-122.82388888,38.73111111,Sonoma-Lake Napa Unit,Equipment and vehicle use
+RAWHIDE,1200.0,-102.5246,43.1792,Pine Ridge Agency,Debris and open burning
+SHIRLEY,1200.0,-109.8452,48.3222,Rocky Boy's Agency,Debris and open burning
+WEST MESA,1200.0,-105.8514,32.3501,Las Cruces Field Office,Arson/incendiarism
+LYNCH,1200.0,-119.7013,42.9338,Lakeview District,Natural
+HIGHWAY93,1200.0,-114.8181,41.3144,Elko District Office,Natural
+PELLOWS,1200.0,-122.618531,39.90725,Northern California District,Equipment and vehicle use
+LD2305,1190.0,-99.0712,47.9792,Fort Totten Agency,Arson/incendiarism
+PANOCHE,1187.0,-119.25773,36.61237,Central California District,Power generation/transmission/distribution
+ANTELOPE,1185.0,-108.7687,34.1334,Las Cruces Field Office,Debris and open burning
+WATTS                    ,1185.0,-119.49194444,36.77194444,Fresno-Kings Unit,Missing data/not specified/undetermined
+WALKER,1175.0,-112.1125,43.1149,Idaho Falls District,Arson/incendiarism
+WEED LAKE,1173.0,-119.2196,42.1999,Burns District,Natural
+MILLER TIM,1149.0,-115.70772,42.71817,Boise District,Natural
+EAST,1147.0,-123.35083333,41.73555556,Klamath National Forest,Natural
+PASKENTA                 ,1140.0,-122.28388888,40.15,Tehama-Glenn Unit,Natural
+REDBRIDGE2,1139.5,-114.31154,42.75102,Twin  Falls District,Natural
+BROAD CNYN,1124.0,-112.27737,39.57356,Richfield Field Office,Recreation and ceremony
+DUTCH FLAT,1122.0,-117.5351,40.0971,Winnemucca District Office,Natural
+SILVER ZON,1108.0,-114.255,40.8872,Elko District Office,Natural
+CAMPO,1106.0,-116.5008,32.6167,California Desert District,Debris and open burning
+KYLE,1100.0,-102.1018,43.4264,Pine Ridge Agency,Debris and open burning
+ASKVIG,1100.0,-101.394,48.328,Upper Souris National Wildlife Refuge,Debris and open burning
+SANDERSON,1100.0,-98.04203,45.129,Conde Volunteer Fire Department,Debris and open burning
+HANKSCREEK,1100.0,-115.2934,41.4877,Elko District Office,Missing data/not specified/undetermined
+RAILROAD,1100.0,-115.842,40.2033,Elko District Office,Natural
+FHU 634,1100.0,-110.35,31.45,Coronado National Forest,Missing data/not specified/undetermined
+ROCK CR,1099.0,-119.3344,42.7849,Burns District,Natural
+BLACK MESA,1096.0,-115.18604,42.88511,Boise District,Equipment and vehicle use
+WALSH KNOL,1095.0,-109.0693,40.0677,Vernal Field Office,Equipment and vehicle use
+BRUNEAU,1092.0,-115.61805556,41.88472222,Humboldt-Toiyabe National Forest,Natural
+PINE RIDGE,1090.0,-83.94305556,35.345,National Forests in North Carolina,Arson/incendiarism
+SCRUB-J3.2,1084.0,-80.7,28.6666667,Merritt Island National Wildlife Refuge,Debris and open burning
+PHILLIPINI,1077.0,-116.78981,40.1777,Battle Mountain District Office,Natural
+MEADOW CREEK,1072.0,-115.24916667,45.95583333,Nez Perce - Clearwater National Forests,Debris and open burning
+ROBERTSON,1063.0,-92.87491,35.96849,Buffalo National River,Arson/incendiarism
+GREERLK,1050.0,-95.5503,47.4333,Minnesota Agency,Debris and open burning
+DEMOCRAT RIDGE,1049.0,-92.06722222,37.71805556,Mark Twain National Forest,Debris and open burning
+TANK CREEK,1047.0,-112.8739,34.4182,Arizona Department of Forestry and Fire Management - State Office,Natural
+RILEY HORN,1038.1,-117.5999,43.1085,Vale District,Natural
+3SMILNERBT,1037.9,-113.96266,42.40259,Twin  Falls District,Arson/incendiarism
+HURON COMPLEX,1035.0,-84.06027778,44.61638889,Huron-Manistee National Forest,Equipment and vehicle use
+LONGRIDGE,1025.0,-112.09193,40.3667,Salt Lake Field Office,Natural
+HUNTERS BRANCH,1020.0,-81.79537128,38.00213167,West Virginia Division of Forestry,Arson/incendiarism
+W ROCKWELL,1015.0,-112.37509,39.78452,Richfield Field Office,Natural
+HERFORD,1013.0,-110.10412,31.4337,Gila District Office,Power generation/transmission/distribution
+MOORE #3 MVD,1013.0,-101.5812987,35.7259471,Texas A & M Forest Service,Missing data/not specified/undetermined
+BIG CREEK,1010.0,-84.36666667,34.8,Chattahoochee-Oconee National Forest,Arson/incendiarism
+BIG 2,1001.0,-121.35,39.88472222,Plumas National Forest,Natural
+SUTRO,1000.0,-119.7599,39.2071,Carson City District Office,Misuse of fire by a minor
+OAK CREEK FIRE,1000.0,-100.2054,30.0158,Texas A & M Forest Service,Missing data/not specified/undetermined
+PIONEER,1000.0,-116.319,40.4035,Elko District Office,Natural
+HOLBORN,1000.0,-114.7842,41.1888,Elko District Office,Natural
+I RANCH,1000.0,-116.892,40.9232,Elko District Office,Natural
+BORDER  95,1000.0,-116.4279,32.597311,California Desert District,Recreation and ceremony
+MERCED                   ,1000.0,-120.30611111,37.63,Merced-Mariposa Unit,Missing data/not specified/undetermined
+LACY,1000.0,-118.19194444,36.84111111,San Bernardino Unit,Missing data/not specified/undetermined
+RL424,1000.0,-95.392,47.975,Red Lake Agency,Missing data/not specified/undetermined
+RATTLESNAKE DOUTRE,1000.0,-112.5439,41.88791,Utah Division Forestry Fire State Lands,Debris and open burning
+LAWRENCE BURKE,1000.0,-102.55132,44.42333,Enning Volunteer Fire Department,Power generation/transmission/distribution
+GRASS 6,1000.0,-100.35545,45.55852,Mobridge Volunteer Fire Department,Equipment and vehicle use
+E OF VASTA,1000.0,-94.2,29.65,McFaddin National Wildlife Refuge,Arson/incendiarism
+RUNNER,1000.0,-105.0754013,34.35369873,New Mexico State Forestry Division,Missing data/not specified/undetermined
+TXPTEAST,1000.0,-93.8667,29.683,Texas Point National Wildlife Refuge,Missing data/not specified/undetermined
+WILLOW 1,1000.0,-108.8518,46.7847,North Central Montana District,Natural

@@ -1,0 +1,562 @@
+/* Legend Font Style */
+body {
+	font: 14px Georgia, serif;
+	margin: 0;
+	padding: 0;
+}
+
+.division {
+	z-index: 20;
+}
+
+.bubble {
+	stroke: #fff;
+	stroke-width: .5px;
+	z-index: 25;
+  }
+  
+  /* On mouse hover, lighten bubble color */
+.bubble:hover, .bubble:focus {
+	  fill: rgb(250,155,125) !important;
+}
+
+.state-border {
+	fill: rgb(222,222,222);
+}
+
+.state-border:hover {
+	cursor: pointer;
+	fill: rgb(226,226,226);
+}
+
+.body-container {
+	padding: 30px 70px;
+	z-index: 2;
+	background-color: rgb(248,248,248);
+}
+
+.map-box {
+	width: 100%;
+}
+
+.map {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%;
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.year-btn {
+	font: 22px serif;
+	background-color: rgb(248,248,248);
+	border: none;
+	color: black;
+	font-weight: bold;
+	padding: 18px 16px;
+}
+
+#year-dwn {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+#year-up {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.year-btn:disabled {
+	color: silver;
+	background-color: white;
+}
+
+.year-btn:hover, .year-btn:focus {
+	cursor: pointer;
+	background-color: rgb(245,245,245);
+}
+
+.year-btn:disabled:hover, .year-btn:disabled:focus {
+	color: silver;
+	cursor: not-allowed;
+	background-color: white;
+}
+
+hr {
+	height: 2px;
+    background-color: grey;
+    border: none;
+	margin-top: 10px;
+}
+
+.hovertool {
+	position: absolute;
+	top: calc(160px + 25vw);
+	right: calc(55px + 2.5vw);
+	width: 150px;
+	padding: 16px;
+	background-color: rgb(233,233,233);
+	border: 1px solid rgb(100,100,100);
+	border-radius: 8px;
+	font-size: 14px;
+	overflow-wrap: break-word;
+	z-index: 30;
+}
+
+.hovertool p {
+	margin-top: 8px;
+	margin-bottom: 1px;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.right {
+	float: right;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+#page-title {
+	margin-top: 3px;
+}
+
+.btn-box {
+	position: fixed;
+	top: 86.8vh;
+	left: calc(20vw - 50px);
+	width: calc(60vw + 100px);
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0px 3px 5px grey;
+	z-index: 50;
+	opacity: 0;
+	transform: translateY(16px);
+	transition: 0.5s all ease;
+}
+
+.btn-box.active {
+	transform: translateY(0);
+	opacity: 1;
+}
+
+.range-slider {
+	opacity: 0;
+	transform: translateY(16px);
+	transition: 0.5s all ease;
+}
+
+.range-slider.active {
+	transform: translateY(0);
+	opacity: 1;
+}
+
+#desc-container {
+	height: 0px;
+	padding: 0px 20px;
+	border-radius: 10px;
+	background-color: rgb(233,233,233);
+	opacity: 0;
+	overflow: hidden;
+	line-height: 1.5;
+	transition: all 0.5s ease;
+}
+
+#desc-container.showbox {
+	padding: 20px;
+	height: 100px;
+	opacity: 1;
+}
+
+.desc-box {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 170px 5fr;
+	grid-gap: 8px;
+}
+
+.statistic-box {
+	background-color: rgb(233,233,233);
+	padding: 10px 10px;
+	border: 1px solid rgb(100,100,100);
+	border-radius: 10px;
+	margin: 15px 0px;
+	font: 60px Garamond, Georgia, serif;
+	font-weight: bold;
+	padding: 13px 25px;
+}
+
+#year-container {
+	grid-column: 1;
+	grid-row: 1;	
+}
+
+#year-stat {
+	grid-column: 2;
+	grid-row: 1;
+	display: grid;
+	grid-template-columns: 3fr 1px 3fr 1px 2fr;
+	grid-gap: 25px;
+	color: rgb(217,100,80);
+}
+
+.courier {
+	font: 14px monospace;
+}
+
+#footer-text {
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+	grid-gap: 60px;
+	padding: 20px;
+}
+
+#footer-text h2 {
+	text-decoration: underline;
+	margin: 8px 0px;
+}
+
+#footer-text p {
+	line-height: 2;
+}
+
+#footer-logo {
+	text-align: center; 
+	margin-top: 30px; 
+	margin-bottom: 140px;
+}
+
+#footer-one {
+	grid-column: 1;
+}
+
+#footer-two {
+	grid-column: 2;
+}
+
+.graph-legend {
+	position: absolute;
+	top: calc(200px + 20vw);
+	left: 70px;
+	width: calc(16px + 7vw);
+	opacity: 0;
+	z-index: 30;
+	transition: opacity 0.3s ease;
+}
+
+.graph-legend.visible {
+	opacity: 1;
+}
+
+.graph-legend-mobile {
+	width: 60%;
+	margin-left: 20%;
+	display: none;
+	z-index: 30;
+}
+
+.graph-legend-mobile.visible {
+	display: block;
+}
+
+.divtooltip {
+	color: black;
+}
+
+.legendtool {
+	position: absolute;
+	width: 30px;
+	padding: 3px;
+	background-color: white;
+	font-size: 10px;
+	z-index: 35;
+}
+
+/* from https://www.w3schools.com/howto/howto_css_modals.asp */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 100; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: visible; /* Enable scroll if needed */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content Box */
+.modal-content {
+	font-size: 18px;
+	background-color: #fefefe;
+	margin: 15% 10%; /* 15% from the top and centered */
+	padding: 50px 35px;
+	border-radius: 10px;
+  }
+  
+  /* The Close Button */
+.close {
+	float: right;
+	margin-right: 2px;
+	width: 16px;
+	height: 16px;
+	transition: all 0.4s ease;
+  }
+  
+.close:hover, .close:focus {
+	cursor: pointer;
+	width: 23px;
+	height: 23px;
+	rotate: 180deg;
+  }
+
+.fire-logo {
+	width: 16px;
+	height: 16px;
+	margin: 5px;
+}
+
+.info-button {
+	background-color: rgb(160,160,160);
+	height: 17px;
+	width: 17px;
+	border-radius: 17px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 1px;
+	margin-left: 4px;
+	text-align: center;
+  }
+
+.info-button:hover, .info-button:focus {
+	background-color: rgb(130,130,130);
+  }
+
+#info-modal-text {
+	line-height: 2;
+}
+
+
+#visualizer-link {
+	text-decoration: none;
+	padding: 12px 18px;
+	border-radius: 25px;
+	background-color: black;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	font-size: 2.5vh;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	animation: wave 4s linear infinite;
+}
+
+@keyframes wave {
+	50% {
+		transform: translateY(8px);
+	}
+}
+
+#visualizer-link:hover, #visualizer-link:focus {
+	background-color: grey;
+}
+
+#welcome-container {
+	opacity: 1;
+	padding: 20vh 15vw;
+	text-align: center;
+	
+	transition: all 0.4s ease;
+}
+
+#welcome-container.fadeout {
+	opacity: 0;
+}
+
+#welcome-container p {
+	font-size: 30px;
+}
+
+#welcome-container h2 {
+	font-size: 40px;
+}
+
+a {
+	color: rgb(217,100,80);
+	font-family: monospace;
+	
+}
+
+.footer-header {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.filler-space {
+	height: 20px;
+}
+
+
+@media screen and (max-width: 850px) {
+	.hovertool {
+		display: none;
+	}
+
+	#year-stat {
+		display: none;
+	}
+
+	.desc-box {
+		grid-template-columns: 1fr;
+	}
+
+	#year-id {
+		font-size: 37px;
+	}
+
+	.body-container {
+		padding: 30px 30px;
+	}
+
+	#footer-text {
+		grid-template-columns: 1fr;
+		grid-gap: 15px;
+	}
+
+	#footer-two {
+		grid-column: 1;
+	}
+
+	#bubble:hover {
+		fill: inherit;
+	}
+
+	.legendtool {
+		display: none;
+	}
+
+	.btn-box {
+		position: static;
+		margin-top: 15px;
+		margin-left: 0px;
+		width: 100%;
+		visibility: hidden;
+	}
+
+	.range-slider {
+		position: absolute !important;
+		top: calc(320px + 45vw) !important;
+		left: 50px !important;
+		width: calc(100vw - 100px) !important;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+
+	#page-title {
+		margin-top: 10px;
+		display: block;
+		font-size: 23px !important;
+		text-align: center;
+		padding: 15px 15px;
+	}
+
+	#overlay-title {
+		float: none;
+		text-align: center;
+		display: block;
+		margin: 15px 0px 30px 0px;
+	}
+
+	#footer-logo {
+		margin-bottom: 50px;
+	}
+
+	.filler-space {
+		display: none;
+	}
+
+	#desc-container {
+		display: none;
+	}
+
+	#info-modal-text {
+		font-size: 13px;
+	}
+
+	#textanimate {
+		display: none;
+	}
+
+	#textanimatelabel {
+		display: none;
+	}
+
+	.modal-content {
+		margin: 25% 10%;
+	}
+
+	.graph-legend {
+		display: none;
+	}
+
+	#welcome-container p {
+		font-size: 24px;
+	}
+	
+	
+}
+
+@media screen and (max-width: 1170px) {
+	#desc-container.showbox {
+		height: 120px;
+	}
+
+	.counter {
+		font-size: 40px;
+	}
+
+	#year-stat {
+		grid-template-columns: 1fr 1px 1fr 1px 1fr;
+	}
+
+	.courier {
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	#desc-container.showbox {
+		height: 140px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	#desc-container.showbox {
+		height: 160px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.range-slider {
+		top: calc(340px + 45vw) !important;
+	}
+
+	.modal-content {
+		margin: 15% 10%;
+	}
+
+	.hovertool {
+		display: none;
+	}
+}

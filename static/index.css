@@ -1,0 +1,224 @@
+.range-slider {
+  --primary-color: grey;
+  --value-offset-y: var(--ticks-gap);
+  --value-active-color: white;
+  --value-background: transparent;
+  --value-background-hover: var(--primary-color);
+  --value-font: 700 12px/1 Arial;
+  --fill-color: var(--primary-color);
+  --progress-background: rgb(200,200,200);
+  --progress-radius: 20px;
+  --track-height: 6px;
+  --min-max-font: 12px Arial;
+  --min-max-opacity: 0.5;
+  --min-max-x-offset: 10%;
+  --thumb-size: 10px;
+  --thumb-color: white;
+  --thumb-shadow: 0 0 3px rgba(0, 0, 0, 0.4), 0 0 1px rgba(0, 0, 0, 0.5) inset,
+    0 0 0 99px var(--thumb-color) inset;
+  --thumb-shadow-active: 0 0 0 calc(var(--thumb-size) / 4) inset
+      var(--thumb-color),
+    0 0 0 99px var(--primary-color) inset, 0 0 3px rgba(0, 0, 0, 0.4);
+  --thumb-shadow-hover: var(--thumb-shadow);
+  --ticks-thickness: 1px;
+  --ticks-height: 5px;
+  --ticks-gap: var(
+    --ticks-height,
+    0
+  );
+  --ticks-color: silver;
+  --step: 1;
+  --ticks-count: Calc(var(--max) - var(--min)) / var(--step);
+  --tickInterval: 100/ ((var(--max) - var(--min)) / var(--step)) * var(--tickEvery, 1);
+  --tickIntervalPerc: calc(
+    (100% - var(--thumb-size)) / ((var(--max) - var(--min)) / var(--step)) *
+      var(--tickEvery, 1)
+  );
+  --value-a: var(--value, 0);
+  --text-value-a: var(--text-value, "");
+  --completed: calc(
+    (var(--value) - var(--min)) / (var(--max) - var(--min)) * 100
+  );
+  --thumbs-too-close: Clamp(
+    -1,
+    1000 * (Min(1, Max(var(--completed) - var(--completed) - 5, -1)) + 0.001),
+    1
+  );
+  --thumb-close-to-min: Min(1, Max(var(--completed) - 2, 0));
+  --thumb-close-to-max: Min(1, Max(98 - var(--completed), 0));
+  display: inline-block;
+  height: max(var(--track-height), var(--thumb-size));
+  background: linear-gradient(to right, var(--ticks-color) var(--ticks-thickness), transparent 1px) repeat-x;
+  background-size: var(--tickIntervalPerc) var(--ticks-height);
+  background-position-x: calc(var(--thumb-size) / 2 - var(--ticks-thickness) / 2);
+  background-position-y: var(--flip-y, bottom);
+  padding-bottom: var(--flip-y, var(--ticks-gap));
+  padding-top: calc(var(--flip-y) * var(--ticks-gap));
+  position: fixed;
+  top: 89vh;
+  z-index: 100;
+  left: 20vw;
+}
+.range-slider[data-ticks-position=top] {
+  --flip-y: 1;
+}
+.range-slider::before, .range-slider::after {
+  --offset: calc(var(--thumb-size) / 2);
+  content: counter(x);
+  display: var(--show-min-max, block);
+  font: var(--min-max-font);
+  position: absolute;
+  bottom: var(--flip-y, -2.5ch);
+  top: calc(-2.5ch * var(--flip-y));
+  opacity: clamp(0, var(--at-edge), var(--min-max-opacity));
+  transform: translateX(calc(var(--min-max-x-offset) * var(--before, -1) * -1)) scale(var(--at-edge));
+  pointer-events: none;
+}
+.range-slider::before {
+  --before: 1;
+  --at-edge: var(--thumb-close-to-min);
+  counter-reset: x var(--min);
+  left: var(--offset);
+}
+.range-slider::after {
+  --at-edge: var(--thumb-close-to-max);
+  counter-reset: x var(--max);
+  right: var(--offset);
+}
+.range-slider__values {
+  position: relative;
+  top: 50%;
+  line-height: 0;
+  text-align: justify;
+  width: 100%;
+  pointer-events: none;
+  margin: 0 auto;
+  z-index: 5;
+}
+.range-slider__values::after {
+  content: "";
+  width: 100%;
+  display: inline-block;
+  height: 0;
+  background: red;
+}
+.range-slider__progress {
+  --start-end: calc(var(--thumb-size) / 2);
+  --clip-end: calc(100% - (var(--completed)) * 1%);
+  --clip-start: calc(var(--completed) * 1%);
+  --clip: inset(-20px var(--clip-end) -20px var(--clip-start));
+  position: absolute;
+  left: var(--start-end);
+  right: var(--start-end);
+  top: calc(var(--ticks-gap) * var(--flip-y, 0) + var(--thumb-size) / 2 - var(--track-height) / 2);
+  height: calc(var(--track-height));
+  background: var(--progress-background, #eee);
+  pointer-events: none;
+  z-index: -1;
+  border-radius: var(--progress-radius);
+}
+.range-slider__progress::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  -webkit-clip-path: var(--clip);
+          clip-path: var(--clip);
+  top: 0;
+  bottom: 0;
+  background: var(--fill-color, black);
+  box-shadow: var(--progress-flll-shadow);
+  z-index: 1;
+  border-radius: inherit;
+}
+.range-slider__progress::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: var(--progress-shadow);
+  pointer-events: none;
+  border-radius: inherit;
+}
+.range-slider > input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  width: 100%;
+  height: var(--thumb-size);
+  margin: 0;
+  position: absolute;
+  left: 0;
+  top: calc(50% - max(var(--track-height), var(--thumb-size)) / 2 + var(--ticks-gap) / 2 * var(--flip-y, -1));
+  cursor: grab;
+  outline: none;
+  background: none;
+}
+.range-slider > input:not(:only-of-type) {
+  pointer-events: none;
+}
+.range-slider > input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+          appearance: none;
+  height: 35px;
+  width: var(--thumb-size);
+  transform: var(--thumb-transform);
+  border-radius: 5px;
+  background: var(--thumb-color);
+  box-shadow: var(--thumb-shadow);
+  border: none;
+  pointer-events: auto;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+.range-slider > input::-moz-range-thumb {
+  -moz-appearance: none;
+       appearance: none;
+  height: 35px;
+  width: var(--thumb-size);
+  transform: var(--thumb-transform);
+  border-radius: 5px;
+  background: var(--thumb-color);
+  box-shadow: var(--thumb-shadow);
+  border: none;
+  pointer-events: auto;
+  -moz-transition: 0.1s;
+  transition: 0.1s;
+}
+.range-slider > input::-ms-thumb {
+  appearance: none;
+  height: 35px;
+  width: var(--thumb-size);
+  transform: var(--thumb-transform);
+  border-radius: 5px;
+  background: var(--thumb-color);
+  box-shadow: var(--thumb-shadow);
+  border: none;
+  pointer-events: auto;
+  -ms-transition: 0.1s;
+  transition: 0.1s;
+}
+.range-slider > input:hover {
+  --thumb-shadow: var(--thumb-shadow-hover);
+}
+.range-slider > input:active {
+  --thumb-shadow: var(--thumb-shadow-active);
+  cursor: grabbing;
+}
+.range-slider > input:nth-of-type(1) {
+  --is-left-most: Clamp(0, (var(--value-a) - var(--value-a)) * 99999, 1);
+}
+.range-slider > input:nth-of-type(2) {
+  --is-left-most: Clamp(0, (var(--value-a) - var(--value-a)) * 99999, 1);
+}
+.range-slider > input:only-of-type ~ .range-slider__progress {
+  --clip-start: 0;
+}
+
+body > .range-slider,
+label[dir=rtl] .range-slider {
+  width: 60vw;
+  min-width: 200px;
+}/*# sourceMappingURL=index.css.map */

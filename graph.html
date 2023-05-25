@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="/static/functions.js" defer></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="https://d3js.org/d3-queue.v3.min.js"></script>
+<script src=
+"https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js">
+</script>
+<link rel="stylesheet" type="text/css" href="/static/style.css" />
+<link rel="stylesheet" href="/static/index.css" />
+
+
+</head>
+
+<body onload="refreshdata(); animatecontrols();">
+
+	<div class="body-container">
+		<p id="page-title" class="inline" style="font-size: 20px;">VISUALIZING WILDFIRES: A Data Project</p>
+		<div id="overlay-title" class="inline right">
+			<p class="inline"><em>Overlay:</em></p>
+			<form name="overlayform" class="inline">
+				<select name="overlay" id="overlay-select" class="courier" onchange="loadoverlay()">
+					<option value="states" selected>None</option>
+					<option value="forests">Forests</option>
+					<option value="precip">Precipitation</option>
+					<option value="temp">Temperature</option>
+					<option value="heat">Heat Anomaly</option>
+				</select>
+			</form>
+			<p class="inline info-button" onclick="openInfo()">?</p>
+		</div>
+
+		<hr>
+
+		<div class="w3-animate-opacity desc-box">
+			<div id="year-container" class="inline statistic-box">
+				<p class="courier">Year</p>
+				<p id="year-id">1992</p>
+			</div>
+			
+			<div id="year-stat" class="inline statistic-box">
+				<div>
+					<p class="courier"># Unique Fires Recorded</p>
+					<p class="counter" id="firenum" targetval="0" currentval="0">0</p>
+				</div>
+				<span style="background-color: grey;"></span>
+				<div>
+					<p class="courier">Total Area Burned (acres)</p>
+					<p class="counter" id="acrenum" targetval="0" currentval="0">0</p>
+				</div>
+				<span style="background-color: grey;"></span>
+				<div>
+					<p class="courier">Avg. Fire Size (acres)</p>
+					<p class="counter" id="acreavg" targetval="0" currentval="0">0</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="vis-container">
+	
+			<div class="hovertool" id="hoverbox" style="opacity: 0;">
+				<div class="nametag courier" style="font-size: 18px;"></div>
+				<hr>
+				<p>Area burned:</p> <div class="acretag courier"></div>
+				<p>Reporting agency:</p> <div class="reportertag courier"></div>
+				<p>Cause:</p> <div class="causetag courier"></div>
+			</div>
+
+			<div class="legendtool" style="opacity: 0;"></div>
+
+			<img src="/static/precip_legend.png" alt="Precipitation Graph Legend" width="120" class="legend graph-legend" id="precip-legend">
+			<img src="/static/temp_legend.png" alt="Temperature Graph Legend" width="120" class="legend graph-legend" id="temp-legend">
+			<img src="/static/heat_legend.png" alt="Temperature Anomaly Graph Legend" width="120" class="legend graph-legend" id="heat-legend">
+
+			<div class="map-box">
+				<div class="map" id="map-svg"></div>
+				<div class="btn-box inline time-control">
+					<button class="inline year-btn" id="year-dwn" type="button" onclick="decreaseyear()">&#8722;</button>
+					<button class="inline right year-btn" id="year-up" type="button" onclick="increaseyear()">&#43;</button>
+				</div>
+			</div>
+
+			<img src="/static/precip_legend_mobile.png" alt="Precipitation Graph Legend" width="200" class="legend graph-legend-mobile" id="precip-legend-mobile">
+			<img src="/static/temp_legend_mobile.png" alt="Temperature Graph Legend" width="200" class="legend graph-legend-mobile" id="temp-legend-mobile">
+			<img src="/static/heat_legend_mobile.png" alt="Temperature Anomaly Graph Legend" width="200" class="legend graph-legend-mobile" id="heat-legend-mobile">
+
+		</div>
+
+		<div class="filler-space"></div>
+
+		<div id="desc-container" class="courier"></div>
+		<hr style="margin-top: 30px;">
+
+		<div id="footer-text" loading="lazy">
+			<div id="footer-one">
+				<h2 class="footer-header">About</h2>
+				<p>Created by Minoo J. using D3.js.</p>
+				<div style="height: 15px;"></div>
+				<h2 class="footer-header">Methodology</h2>
+				<p>In this chart, only fires larger than 1,000 acres are displayed as bubbles. Bubbles are not to scale. 
+					Fires of all sizes are included in calculations for national statistics. 
+					Scales for overlays were determined based on global minimum and maximum values for observed weather patterns.
+				</p>
+			</div>
+			<div id="footer-two">
+				<h2 class="footer-header">Data and Sources</h2>
+				<p>All wildfire incidence data was sourced from the <a href="https://data-usfs.hub.arcgis.com/datasets/usfs::national-interagency-fire-occurrence-sixth-edition-1992-2020-feature-layer/about">U.S. Forest Service</a>. 
+					Layers data come from <a href="https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/divisional/mapping/">NOAA's divisional mapping tool</a> and <a href="https://catalog.data.gov/dataset/fs-national-forests-dataset-us-forest-service-proclaimed-forests-2c16c">U.S. Forest Service shapefiles</a>. 
+					Various news sources were used to write fire season descriptions.
+					<br><br>
+					Maps were drawn as <a href="https://gist.github.com/michellechandra/0b2ce4923dc9b5809922">states</a> and <a href="https://observablehq.com/@efrymire/gridding-map-files">climate divisions</a>. 
+					Some HTML elements re-used from tutorials <a href="https://codepen.io/vsync/pen/mdEJMLv">here</a> and <a href="https://www.tutorialstonight.com/animated-counter-javascript">here</a>. 
+					<a href="https://mapshaper.org/">Mapshaper</a> and <a href="https://geojson.io/">geojson.io</a> were used for some file-type conversion. 
+					Data was processed with the help of Pandas and Python.					
+				</p>
+			</div>
+		</div>
+		<div id="footer-logo" loading="lazy">
+			<svg class="fire-logo" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" overflow="visible" stroke="black" stroke-width="10" stroke-linecap="round">
+				<line x2="50" y2="50" />
+				<line x1="50" y2="50" />
+			</svg>
+			<svg class="fire-logo" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" overflow="visible" stroke="black" stroke-width="10" stroke-linecap="round">
+				<line x2="50" y2="50" />
+				<line x1="50" y2="50" />
+			</svg>
+			<svg class="fire-logo" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" overflow="visible" stroke="black" stroke-width="10" stroke-linecap="round">
+				<line x2="50" y2="50" />
+				<line x1="50" y2="50" />
+			</svg>
+		</div>
+	</div>
+
+	<div class="range-slider time-control" style='--min:1992; --max:2020; --step:1; --value:1992; --text-value:"1992";'>
+		<input type="range" id="slider-input" min="1992" max="2020" step="1" value="1992" oninput="this.parentNode.style.setProperty('--value',this.value); this.parentNode.style.setProperty('--text-value', JSON.stringify(this.value))">
+		<div class='range-slider__progress'></div>
+	</div>
+
+	<div id="info-modal" class="modal" loading="lazy">
+		<div class="modal-content">
+		  <svg class="close" onclick="closeInfo()" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" overflow="visible" stroke="black" stroke-width="10" stroke-linecap="round">
+			<line x2="50" y2="50" />
+			<line x1="50" y2="50" />
+		 </svg>
+		  <h2>Layer Guide</h2>
+		  <p id="info-modal-text"><b>Forests:</b> Indicates lands owned and managed by the U.S. Forest Service, including all National Forests and Grasslands boundaries.<br>
+			<b>Precipitation:</b> Total inches of precipitation measured over the summer months—June, July, and August—organized by climate division (NOAA).<br>
+			<b>Temperature:</b> Single-season average temperature in the summer months, organized by climate division (NOAA).<br>
+			<b>Heat Anomaly:</b> Difference between a division’s single-summer average temperature and its typical summer temperature, as determined by averaging measurements from 1901 to 2000 (NOAA).
+		  </p>
+		  <br>
+		  <div style="text-align: center;">
+			<input type="checkbox" id="textanimate" name="textanimate" checked>
+			<label id="textanimatelabel" for="textanimate">Display text animations</label>  
+		  </div>
+
+		</div>
+	</div>
+
+	
+<script type="text/javascript">
+
+	/*  This visualization was made possible by modifying code provided by:
+	Scott Murray, Choropleth example from "Interactive Data Visualization for the Web" 
+	https://github.com/alignedleft/d3-book/blob/master/chapter_12/05_choropleth.html   
+			
+	Malcolm Maclean, tooltips example tutorial
+	http://www.d3noob.org/2013/01/adding-tooltips-to-d3js-graph.html
+	Mike Bostock, Pie Chart Legend
+	http://bl.ocks.org/mbostock/3888852  */
+
+			
+	//Width and height of map
+	//document.getElementById("map-svg").offsetWidth
+	var width = 1000;
+	var height = 500;
+
+	// D3 Projection
+	var projection = d3.geo.albersUsa();
+	
+
+	// Define path generator
+	var path = d3.geo.path()
+				.projection(projection);  // tell path generator to use albersUsa projection
+
+	//Create SVG element and append map to the SVG
+	var svg = d3.select(".map")
+				.append("svg")
+				.attr("viewBox", [0, 0, width, height])
+				.attr("preserveAspectRatio", "xMinYMin meet")
+				.classed("svg-content", true);
+			
+	// Append Div for tooltip to body
+	var div = d3.select("body")
+				.append("div")   
+				.attr("class", "tooltip")               
+				.style("opacity", 0);
+
+	d3.json("/static/us-states.json", function(json) {
+		// Bind the data to the SVG and create one path per GeoJSON feature
+		svg.selectAll("state")
+			.data(json.features)
+			.enter()
+			.append("path")
+			.on("click", click)
+			.attr("d", path)
+			.attr("class","state")
+			.attr("class","state-border")
+			.style("stroke", "#fff")
+			.style("stroke-width", "1");
+	
+	});	
+
+
+	let centered;
+
+	function click(d) {
+		var x, y, k;
+		
+	
+		if (d && centered !== d) {
+		var centroid = path.centroid(d);
+		k = 2.5;
+		x = -(centroid[0]/width-0.5)*parseInt(svg.style("width"))*k;
+		y = -(centroid[1]/height-0.5)*parseInt(svg.style("height"))*k;
+
+		centered = d;
+		} else {
+		x = 0;
+		y = 0;
+		k = 1;
+		centered = null;
+		}
+		
+		
+		svg.selectAll(".state")
+		.classed("active", centered && function(d) { return d === centered; });
+		
+		svg.transition()
+		.duration(750)
+		.attr("transform", "translate(" + x + "," + y + ") scale(" + k + ")" );
+
+	}
+
+</script>
+
+
+</body>
+</html>

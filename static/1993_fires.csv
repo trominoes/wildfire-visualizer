@@ -1,0 +1,200 @@
+name,acres,lon,lat,reporter,cause
+332557,215360.0,-143.6358,65.8997,Alaska Fire Service,Natural
+DCKN190,82370.0,-159.2199,69.8495,Alaska Fire Service,Natural
+3322292,47494.0,-142.8692,66.1164,Alaska Fire Service,Natural
+MARRE,43201.0,-119.95833333,34.68666667,Los Padres National Forest,Smoking
+GREENMEADO,38152.0,-118.8676,34.1667,Santa Monica Mountains National Recreation Area,Arson/incendiarism
+332248,36250.0,-149.7192,65.7995,Alaska Fire Service,Natural
+MARKHAM,35696.0,-110.38666667,32.46333333,Coronado National Forest,Natural
+BRUSH,32000.0,-108.5,33.08333333,Gila National Forest,Natural
+304536,28010.0,-155.9357,61.766,Alaska Fire Service,Natural
+LINCH,27181.0,-108.6506,31.5334,Las Cruces Field Office,Natural
+TAL N 25,26200.0,-151.8859,65.5662,Alaska Fire Service,Natural
+CALIFORNIA,24387.0,-117.0175,33.6834,California Desert District,Power generation/transmission/distribution
+304222,23501.0,-159.4857,61.3159,Alaska Fire Service,Natural
+MEADOW,21686.0,-114.5508,37.15,Southern Nevada District Office,Missing data/not specified/undetermined
+ORTEGA,21384.0,-117.48833333,33.47166667,Cleveland National Forest,Missing data/not specified/undetermined
+CEMSE34,21210.0,-143.6357,65.2663,Alaska Fire Service,Natural
+FYUN 60,20942.0,-144.0694,67.4497,Alaska Fire Service,Natural
+GUEJITO,20768.0,-116.97333333,33.15833333,Cleveland National Forest,Missing data/not specified/undetermined
+JALTWO,19610.0,-103.4505,32.2168,Roswell Field Office,Equipment and vehicle use
+DCKN 178,16740.0,-158.3699,69.7828,Alaska Fire Service,Natural
+ORCHARD,16000.0,-120.151,35.7333,Central California District,Natural
+MCIVOR FIRE,15380.0,-104.18427706,30.67929247,Texas A & M Forest Service,Missing data/not specified/undetermined
+MADDOX 2,15000.0,-103.2803,32.72057,New Mexico State Forestry Division,Missing data/not specified/undetermined
+STONE,14700.0,-107.78333333,33.66666667,Gila National Forest,Natural
+MASHED O,14103.0,-105.7839,32.1501,Las Cruces Field Office,Natural
+DONAHOE FIRE,14016.0,-104.28658737,30.77908398,Texas A & M Forest Service,Missing data/not specified/undetermined
+BELL,13820.0,-108.16666667,33.41666667,Gila National Forest,Natural
+SAN SABA FIRE,12892.0,-98.94747233,31.10262831,Texas A & M Forest Service,Missing data/not specified/undetermined
+HIGHWAY 24,12705.0,-119.51666667,46.73333333,Hanford Reach National Monument,Equipment and vehicle use
+SHAFTER FIRE,12691.0,-104.25049142,29.81887419,Texas A & M Forest Service,Missing data/not specified/undetermined
+SPRINGS,12495.0,-110.89518052,32.75474435,Arizona Department of Forestry and Fire Management - State Office,Missing data/not specified/undetermined
+SUNBEAM,12410.0,-108.284,40.5166,"Northwest District, Craig",Missing data/not specified/undetermined
+UVAS,11856.0,-107.1672,32.5501,Las Cruces Field Office,Natural
+304632,11550.0,-159.919,61.4326,Alaska Fire Service,Natural
+332229,11250.0,-157.8024,62.816,Alaska Fire Service,Natural
+MOOSE CRK1,11249.0,-151.0856,63.6828,Denali National Park and Preserve,Natural
+STRAW,11000.0,-108.38,33.25166667,Gila National Forest,Natural
+332554,10723.0,-146.2026,66.583,Alaska Fire Service,Natural
+MENARD FIRE,10106.0,-99.97448372,30.96692087,Texas A & M Forest Service,Missing data/not specified/undetermined
+WAPATI PK,9600.0,-108.3006,40.3333,"Northwest District, Craig",Missing data/not specified/undetermined
+RANGE,9000.0,-106.7339,33.5501,Las Cruces Field Office,Natural
+ESCONDIDO,8900.0,-105.8172,32.1334,Las Cruces Field Office,Natural
+REPPLIER,8780.0,-116.88333333,33.94,San Bernardino National Forest,Equipment and vehicle use
+OPAL 2,8360.0,-117.1675,35.2,California Desert District,Natural
+TAL S 27,7870.0,-152.3191,64.7328,Alaska Fire Service,Natural
+FREEZEOUT LAKE,7680.0,-112.27525,47.63224,Central Land Office,Missing data/not specified/undetermined
+CEDAR WASH,7406.6,-113.9508,36.5166,Arizona Strip Field Office,Natural
+331582,7200.0,-151.2691,64.7662,Alaska Fire Service,Natural
+ELK HILLS2,7100.0,-119.5843,35.2666,Central California District,Power generation/transmission/distribution
+CRATER CRE,6782.0,-98.6,34.683,Wichita Mountains National Wildlife Refuge,Missing data/not specified/undetermined
+PINE,6510.0,-104.82667,31.89611,Guadalupe Mountains National Park,Misuse of fire by a minor
+IRON,6400.0,-108.495,33.39666667,Gila National Forest,Natural
+111 RANCH,6185.0,-109.2006,32.7001,Gila District Office,Missing data/not specified/undetermined
+RANCHO,6000.0,-121.4844,36.3166,Central California District,Equipment and vehicle use
+CEMNE62,5960.0,-142.2691,65.6997,Alaska Fire Service,Natural
+PASS,5954.0,-114.6675,37.2,Southern Nevada District Office,Natural
+331573,5810.0,-147.8194,67.1663,Alaska Fire Service,Natural
+GNATCATCHE,5711.0,-82.3219444,30.5936111,Okefenokee National Wildlife Refuge,Natural
+KINNELOA,5700.0,-118.08666667,34.185,Angeles National Forest,Recreation and ceremony
+331585,5530.0,-141.0856,64.1997,Alaska Fire Service,Natural
+PG&E #4                  ,5500.0,-120.9,36.94805555,Merced-Mariposa Unit,Equipment and vehicle use
+BURGETT,5350.0,-105.61833333,32.95166667,Lincoln National Forest,Recreation and ceremony
+TAL SW 83,5180.0,-153.669,63.9828,Alaska Fire Service,Natural
+HAQUAHALA,4824.0,-113.3174,33.8334,Phoenix District Office,Natural
+TOKLAT RV,4800.0,-150.116668,63.916667,Fairbanks Area,Natural
+331653,4800.0,-157.1358,64.0994,Alaska Fire Service,Natural
+PIETY,4800.0,-110.57166667,32.39666667,Coronado National Forest,Natural
+PORCUPINE,4700.0,-144.816665,64.633331,Fairbanks Area,Natural
+MILL CREEK,4680.0,-117.03833333,34.08333333,San Bernardino National Forest,Equipment and vehicle use
+EAGLE,4600.0,-116.73333333,32.98333333,Cleveland National Forest,Recreation and ceremony
+CEMW62,4470.0,-147.4025,65.8329,Alaska Fire Service,Natural
+QUEMADO,4300.0,-105.79166667,35.96166667,Santa Fe National Forest,Natural
+SHILOH,4244.0,-107.9339,32.2168,Las Cruces Field Office,Natural
+BLACKHAWK,4200.0,-107.80166667,33.31666667,Gila National Forest,Natural
+MARTIN,4115.0,-105.8172,32.3001,Las Cruces Field Office,Natural
+313641,4100.0,-142.2022,62.7163,Alaska Fire Service,Natural
+RED WASH,3940.0,-108.0173,40.7166,"Northwest District, Craig",Debris and open burning
+BLUE ALLEGHENY FIRE,3808.0,-100.23781211,32.42459885,Texas A & M Forest Service,Missing data/not specified/undetermined
+TOLKAT RV,3554.0,-150.119,63.9162,Denali National Park and Preserve,Natural
+RAVINE,3500.0,-110.96995787,32.60142521,Arizona Department of Forestry and Fire Management - State Office,Missing data/not specified/undetermined
+LAVADE,3500.0,-104.7672,33.3668,Roswell Field Office,Natural
+WESTEND,3500.0,-94.2167,29.65,McFaddin National Wildlife Refuge,Missing data/not specified/undetermined
+BOX                      ,3500.0,-117.30388888,33.96805555,Riverside Unit,Missing data/not specified/undetermined
+MAYDAY,3494.7,-103.65319,29.18468,Big Bend National Park,Natural
+331639,3410.0,-157.6358,64.2494,Alaska Fire Service,Natural
+FYUSE 35,3344.0,-145.5859,66.0663,Alaska Fire Service,Natural
+331662,3300.0,-156.8358,64.166,Alaska Fire Service,Natural
+ELPASODRAW,3252.0,-105.7172,32.4501,Las Cruces Field Office,Natural
+BUNKER,3200.0,-114.1341,36.6833,Southern Nevada District Office,Natural
+332663,3200.0,-152.7356,63.4828,Alaska Fire Service,Natural
+CLEAR,3200.0,-108.41333333,33.355,Gila National Forest,Natural
+CLAYTON,3200.0,-108.50333333,33.37333333,Gila National Forest,Natural
+BOTTOM,3182.0,-112.7752,38.653,Richfield Field Office,Natural
+EDWARDS,3094.0,-111.35,33.83333333,Tonto National Forest,Natural
+WHITE ROCK,3069.0,-114.0675,38.1333,Ely District Office,Arson/incendiarism
+DE DIOS,3000.0,-104.5411148,34.84444427,New Mexico State Forestry Division,Missing data/not specified/undetermined
+DEERFLY,3000.0,-93.75,29.9166667,Sabine National Wildlife Refuge,Natural
+SABODAN,3000.0,-119.0176,35.0,Central California District,Missing data/not specified/undetermined
+DUNES,2910.0,-107.5673,41.4333,Rawlins Field Office,Natural
+BEACON,2865.0,-114.2841,36.8666,Southern Nevada District Office,Equipment and vehicle use
+RR MP 416,2806.0,-115.90472,43.26023,Boise District,Railroad operations and maintenance
+FRIJOLES,2626.0,-105.83166667,35.90833333,Santa Fe National Forest,Natural
+DUNE LAKE,2570.0,-150.133331,64.416664,Fairbanks Area,Natural
+3 FINGERS,2560.0,-117.2196,43.464,Vale District,Natural
+SUNLAND,2560.0,-111.65624292,32.70878736,Arizona Department of Forestry and Fire Management - State Office,Arson/incendiarism
+GIBBS,2560.0,-103.46722412,34.48500061,New Mexico State Forestry Division,Missing data/not specified/undetermined
+EICHEVERRY,2560.0,-103.560837,33.030399,New Mexico State Forestry Division,Missing data/not specified/undetermined
+PORTER,2500.0,-103.35666656,35.12111282,New Mexico State Forestry Division,Missing data/not specified/undetermined
+BUICK,2500.0,-111.834,33.1934,Pima Agency,Arson/incendiarism
+ICWW,2500.0,-94.2,29.666,McFaddin National Wildlife Refuge,Missing data/not specified/undetermined
+WILLOW CK,2500.0,-117.7176,41.6499,Winnemucca District Office,Natural
+WILMA,2500.0,-103.744247,33.294861,New Mexico State Forestry Division,Missing data/not specified/undetermined
+TRIBAL,2500.0,-116.7509,33.6167,Southern California Agency,Arson/incendiarism
+ANCHOR,2410.0,-154.75,61.366664,Southwest Area,Natural
+BIG GULCH,2400.0,-107.9173,40.8333,"Northwest District, Craig",Missing data/not specified/undetermined
+STODDARD 4,2400.0,-117.1175,34.7,California Desert District,Fireworks
+UNKE29,2370.0,-159.6858,63.816,Alaska Fire Service,Natural
+BERLIER,2300.0,-104.46305847,35.97472381,New Mexico State Forestry Division,Missing data/not specified/undetermined
+ARGENTA,2300.0,-116.6676,40.5332,Battle Mountain District Office,Missing data/not specified/undetermined
+VALLEY,2260.0,-119.501,35.25,Central California District,Arson/incendiarism
+SANTA CRUZ,2250.0,-112.1957,33.2117,Pima Agency,Missing data/not specified/undetermined
+EAA NW 50,2250.0,-141.7691,65.4997,Alaska Fire Service,Natural
+MHM SE 16,2200.0,-152.1023,63.5995,Alaska Fire Service,Natural
+SALT BAYOU,2200.0,-95.55,28.833,San Bernard National Wildlife Refuge,Natural
+BIG WELL,2200.0,-111.02246306,32.63673662,Arizona Department of Forestry and Fire Management - State Office,Natural
+MILL CREEK,2181.0,-113.5175,37.1666,Cedar City Field Office,Natural
+BUCK PEAK,2170.0,-118.57781,36.82665,Sequoia & Kings Canyon National Parks,Natural
+DISHNA,2170.0,-157.316665,62.833332,Southwest Area,Natural
+OLD COACH,2160.0,-117.0009,33.0667,California Desert District,Recreation and ceremony
+COTTONWOOD,2152.5,-113.9675,36.5333,Arizona Strip Field Office,Natural
+BEAR,2050.0,-104.5838,32.1668,Roswell Field Office,Natural
+CEMWNW 93,2037.0,-148.4859,65.8829,Alaska Fire Service,Natural
+PARK,2028.0,-108.6839,31.6168,Las Cruces Field Office,Natural
+OTAY 18                  ,2000.0,-116.83,32.59111111,San Diego Unit,Debris and open burning
+HALFWAY,1920.0,-103.34278106,33.23472213,New Mexico State Forestry Division,Missing data/not specified/undetermined
+TINSLEY,1920.0,-103.497223,34.100639,New Mexico State Forestry Division,Missing data/not specified/undetermined
+OGLALA T,1884.0,-102.8255,43.2861,Pine Ridge Agency,Arson/incendiarism
+WHISKEY,1848.0,-107.86833333,33.40166667,Gila National Forest,Natural
+PGE 13,1800.0,-120.1343,36.05,Central California District,Missing data/not specified/undetermined
+TANNER,1800.0,-111.989,33.1651,Pima Agency,Debris and open burning
+FENCE,1800.0,-113.93840637,35.31081964,Arizona Department of Forestry and Fire Management - State Office,Missing data/not specified/undetermined
+SANTACLAUS,1780.0,-114.3175,35.35,Phoenix District Office,Missing data/not specified/undetermined
+POINT,1762.0,-112.11833333,36.44833333,Kaibab National Forest,Recreation and ceremony
+VAUGHN,1700.0,-104.16690063,34.44110107,New Mexico State Forestry Division,Missing data/not specified/undetermined
+JUNCTION,1668.0,-114.2675,35.35,Phoenix District Office,Natural
+WHEEL,1650.0,-119.295,34.51833333,Los Padres National Forest,Arson/incendiarism
+DOUBLE X,1650.0,-103.6671,32.2168,Roswell Field Office,Equipment and vehicle use
+UNKESE31,1610.0,-159.8191,63.6826,Alaska Fire Service,Natural
+FROZEN FOOT,1575.0,-146.233337,65.150001,Fairbanks Area,Natural
+PIXLEY,1560.0,-119.3509,35.9333,Central California District,Debris and open burning
+METZ,1513.0,-121.2344,36.4333,Central California District,Equipment and vehicle use
+JUMBLED,1500.0,-114.1008,37.1166,Southern Nevada District Office,Natural
+FLAT CANYON,1500.0,-111.13833333,39.4,Manti-Lasal National Forest,Debris and open burning
+GRADE                    ,1500.0,-116.45611111,33.21805555,San Diego Unit,Missing data/not specified/undetermined
+FRAZE,1500.0,-103.283485,33.927853,New Mexico State Forestry Division,Missing data/not specified/undetermined
+TAMOSHANTER,1500.0,-110.96996171,32.75027424,Arizona Department of Forestry and Fire Management - State Office,Natural
+ENRON,1500.0,-105.4005,33.9167,Roswell Field Office,Natural
+HERON BAYO,1500.0,-88.41666667,30.41666667,Grand Bay National Wildlife Refuge,Arson/incendiarism
+MINE,1497.0,-114.3508,35.3833,Phoenix District Office,Natural
+RUSSIA,1485.0,-118.76,35.465,Sequoia National Forest,Arson/incendiarism
+DAVIDSON,1454.0,-114.2508,36.9166,Southern Nevada District Office,Natural
+MEREDITH,1400.0,-104.2005,33.4501,Roswell Field Office,Natural
+BUTTE CR,1400.0,-120.4845,45.0499,Prineville District,Natural
+WHITMIRE,1390.0,-108.9339,31.6001,Las Cruces Field Office,Natural
+INDIAN,1326.0,-108.08333333,33.4,Gila National Forest,Natural
+MARYS CR,1315.0,-116.2176,40.6832,Elko District Office,Natural
+GIESE FIRE,1301.5,-145.350006,63.966667,Delta Area,Debris and open burning
+BODEN,1300.0,-116.86666667,33.13333333,Cleveland National Forest,Missing data/not specified/undetermined
+331568,1290.0,-145.9025,65.3163,Alaska Fire Service,Natural
+CORP,1284.0,-94.73333333,34.68333333,Wichita Mountains National Wildlife Refuge,Natural
+331688,1280.0,-157.1858,64.0827,Alaska Fire Service,Natural
+SALT,1280.0,-104.4839,33.6501,Roswell Field Office,Debris and open burning
+DAN,1280.0,-103.53749847,34.44111251,New Mexico State Forestry Division,Missing data/not specified/undetermined
+CSP,1274.0,-110.93166667,32.39833333,Coronado National Forest,Missing data/not specified/undetermined
+PLUM,1258.0,-101.7282,35.5945,Lake Meredith National Recreation Area,Recreation and ceremony
+25MILEFIRE,1250.0,-97.37978,27.06682,Padre Island National Seashore,Missing data/not specified/undetermined
+QUINN CANYON,1200.0,-115.81666667,38.01666667,Humboldt-Toiyabe National Forest,Equipment and vehicle use
+FKU 6050                 ,1200.0,-119.75611111,36.91694444,Fresno-Kings Unit,Missing data/not specified/undetermined
+JACKSONMTN,1200.0,-110.234,32.8334,Gila District Office,Natural
+OTAY 14                  ,1200.0,-117.02305555,32.62,San Diego Unit,Missing data/not specified/undetermined
+TAL S 54,1190.0,-151.7191,64.2995,Alaska Fire Service,Natural
+JUNIPER 34,1150.0,-81.71666667,29.2,National Forests in Florida,Natural
+PAKOON,1125.0,-113.8008,36.55,Arizona Strip Field Office,Natural
+WILDWASH,1100.0,-117.2675,34.7,California Desert District,Missing data/not specified/undetermined
+FISHER,1089.4,-101.3721,44.7278,Cheyenne River Agency,Equipment and vehicle use
+YLE,1062.0,-110.405,32.59,Coronado National Forest,Natural
+BIG MOUNTAIN,1050.0,-83.14,34.94166667,Chattahoochee-Oconee National Forest,Natural
+WHIRLWIND,1040.0,-116.7009,40.5166,Battle Mountain District Office,Natural
+332262,1030.0,-145.2691,65.6663,Alaska Fire Service,Natural
+CHAPMAN,1027.0,-96.8836,34.3195,Chickasaw National Recreation Area,Debris and open burning
+COCKLEBURR,1009.0,-105.7505,32.3334,Las Cruces Field Office,Natural
+RIVER,1000.0,-114.5175,33.7834,Colorado River Agency,Debris and open burning
+BISHOPSCAP,1000.0,-106.5672,32.3168,Las Cruces Field Office,Natural
+APRIL,1000.0,-110.617,32.9501,San Carlos Agency,Missing data/not specified/undetermined
+NORTHWEST3,1000.0,-112.25,36.33152,Grand Canyon National Park,Debris and open burning
+FREEWAY,1000.0,-117.95,47.15,Turnbull National Wildlife Refuge,Equipment and vehicle use
+KINGMAN,1000.0,-114.0841,35.1667,Phoenix District Office,Railroad operations and maintenance
+ROUND MTN,1000.0,-118.8843,35.5,Central California District,Equipment and vehicle use
+MITCHELL,1000.0,-93.7611111,29.85,Sabine National Wildlife Refuge,Natural
