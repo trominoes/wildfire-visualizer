@@ -375,8 +375,7 @@ p {
 
 #welcome-container {
 	opacity: 1;
-	display: flex;
-	align-items: center;
+	padding: 20vh 15vw;
 	text-align: center;
 	
 	transition: all 0.4s ease;
@@ -505,7 +504,6 @@ a {
 
 	.modal-content {
 		margin: 25% 10%;
-		padding: 30px 25px;
 	}
 
 	.graph-legend {
