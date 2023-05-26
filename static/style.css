@@ -375,9 +375,11 @@ p {
 
 #welcome-container {
 	opacity: 1;
-	padding: 20vh 15vw;
 	text-align: center;
-	
+	position: absolute;
+  	top: 50%;
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
 	transition: all 0.4s ease;
 }
 
@@ -468,7 +470,7 @@ a {
 		display: block;
 		font-size: 23px !important;
 		text-align: center;
-		padding: 15px 15px;
+		padding: 15px 5px;
 	}
 
 	#overlay-title {
@@ -514,8 +516,8 @@ a {
 		font-size: 24px;
 	}
 
-	#welcome-container {
-		padding: 25vh 12vw;
+	#welcome-container h2 {
+		font-size: 50px;
 	}
 	
 	
@@ -553,7 +555,7 @@ a {
 
 @media screen and (max-width: 600px) {
 	.range-slider {
-		top: calc(370px + 45vw) !important;
+		top: calc(350px + 45vw) !important;
 	}
 
 	.modal-content {
@@ -562,5 +564,11 @@ a {
 
 	.hovertool {
 		display: none;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.range-slider {
+		top: calc(380px + 45vw) !important;
 	}
 }
