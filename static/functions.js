@@ -71,18 +71,19 @@ function refreshstats() {
         var yearbio = document.getElementById("desc-container");
         if (document.getElementById("textanimate").checked) {
             yearbio.classList.remove("showbox");
+        } else {
+            yearbio.style.display = "none";
         }
         yearbio.textContent = "";
 
         for (var i=0; i<data.length; i++) {
             if (data[i].year == parseInt(output.textContent)) {
                 if (data[i].bio.length != 0) {
+                    yearbio.style.display = "block";
                     yearbio.classList.add("showbox");    
                     yearbio.textContent = data[i].bio;
                 }
-                //acrenum.textContent = data[i].acreage;
-                //acreavg.textContent = data[i].avg;
-                //updateCounter(firenum, data[i].firenum);
+
                 firenum.setAttribute("finalval",data[i].firenum);
                 acrenum.setAttribute("finalval",data[i].acreage);
                 acreavg.setAttribute("finalval",data[i].avg);
@@ -114,6 +115,10 @@ function refreshstats() {
                     updateCount();
                 });
                 } else {
+                    if (data[i].bio.length != 0) {
+                        yearbio.style.display = "block";   
+                        yearbio.textContent = data[i].bio;
+                    }
                     counters.forEach(counter => {
                         const target = +counter.getAttribute('finalval');
                         counter.setAttribute("currentval",target);
@@ -135,9 +140,6 @@ function renderbubbles()
 
     var div = d3.select(".hovertool");
     var file = `../static/${yearid}_fires.csv`
-
-    // var firenum = document.getElementById("firenum");
-    // console.log(parseInt(firenum.textContent));
 
     d3.csv(file, function(data) {
         svg.selectAll("circle")

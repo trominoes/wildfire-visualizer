@@ -513,11 +513,11 @@ a {
 	}
 
 	#welcome-container p {
-		font-size: 40px;
+		font-size: 40px !important;
 	}
 
 	#welcome-container h2 {
-		font-size: 60px;
+		font-size: 60px !important;
 	}
 	
 	
