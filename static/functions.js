@@ -79,7 +79,6 @@ function refreshstats() {
         for (var i=0; i<data.length; i++) {
             if (data[i].year == parseInt(output.textContent)) {
                 if (data[i].bio.length != 0) {
-                    yearbio.style.display = "block";
                     yearbio.classList.add("showbox");    
                     yearbio.textContent = data[i].bio;
                 }
@@ -91,7 +90,7 @@ function refreshstats() {
                 const counters = document.querySelectorAll('.counter');
 
                 if (document.getElementById("textanimate").checked) {
-
+                    yearbio.style.display = "block";   
                     // iterate through all the counter elements
                     counters.forEach(counter => {
                     // function to increment the counter
