@@ -70,6 +70,7 @@ function refreshstats() {
         var acreavg = document.getElementById("acreavg");
         var yearbio = document.getElementById("desc-container");
         if (document.getElementById("textanimate").checked) {
+            yearbio.style.display = "block";   
             yearbio.classList.remove("showbox");
         } else {
             yearbio.style.display = "none";
@@ -90,7 +91,7 @@ function refreshstats() {
                 const counters = document.querySelectorAll('.counter');
 
                 if (document.getElementById("textanimate").checked) {
-                    yearbio.style.display = "block";   
+                    
                     // iterate through all the counter elements
                     counters.forEach(counter => {
                     // function to increment the counter
