@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Visualizer</title>
 <script src="https://d3js.org/d3.v3.min.js"></script>
-<script src="./static/functions.js" defer></script>
+<script src="/static/functions.js" defer></script>
 <script src="https://d3js.org/topojson.v1.min.js"></script>
 <script src="https://d3js.org/d3-queue.v3.min.js"></script>
 <script src=
@@ -201,7 +201,7 @@
 				.attr("class", "tooltip")               
 				.style("opacity", 0);
 
-	d3.json("/static/us-states.json", function(json) {
+	d3.json("static/us-states.json", function(json) {
 		// Bind the data to the SVG and create one path per GeoJSON feature
 		svg.selectAll("state")
 			.data(json.features)

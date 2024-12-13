@@ -252,7 +252,7 @@ function removelayers() {
 }
 
 function loadclimatedivisions() {
-    d3.json("../static/climate_divisions.json", function(data) {
+    d3.json("static/climate_divisions.json", function(data) {
 		var divisions = topojson.feature(data, data.objects.GIS).features;
 		svg.selectAll("division")
 			.data(divisions)
@@ -267,7 +267,7 @@ function loadclimatedivisions() {
 }
 
 function renderforests() {
-    d3.json("../static/forests_simple_topo.json", function(json) {
+    d3.json("static/forests_simple_topo.json", function(json) {
 		svg
 			.datum(topojson.mesh(json))
 			.append("path")
@@ -289,7 +289,7 @@ function transitionforests() {
 
 function renderprecip() {
     var yearid = parseInt(output.textContent);
-    var file = `../static/${yearid}_precip.csv`;
+    var file = `static/${yearid}_precip.csv`;
     var div = d3.select(".legendtool");
 
     d3.csv(file, function(data) {
@@ -343,7 +343,7 @@ function renderprecip() {
 
 function rendertemp() {
     var yearid = parseInt(output.textContent);
-    var file = `../static/${yearid}_heat.csv`;
+    var file = `static/${yearid}_heat.csv`;
     var div = d3.select(".legendtool");
 
     d3.csv(file, function(data) {
@@ -394,7 +394,7 @@ function rendertemp() {
 
 function renderheat() {
     var yearid = parseInt(output.textContent);
-    var file = `../static/${yearid}_heat.csv`;
+    var file = `static/${yearid}_heat.csv`;
     var div = d3.select(".legendtool");
 
     d3.csv(file, function(data) {
