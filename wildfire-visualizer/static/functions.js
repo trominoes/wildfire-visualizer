@@ -64,7 +64,7 @@ function refreshbuttons()
 }
 
 function refreshstats() {
-    d3.csv("../static/national_fire_data.csv", function(data) {
+    d3.csv("static/national_fire_data.csv", function(data) {
         var firenum = document.getElementById("firenum");
         var acrenum = document.getElementById("acrenum");
         var acreavg = document.getElementById("acreavg");
@@ -139,7 +139,7 @@ function renderbubbles()
     var yearid = parseInt(output.textContent);
 
     var div = d3.select(".hovertool");
-    var file = `../static/${yearid}_fires.csv`
+    var file = `static/${yearid}_fires.csv`
 
     d3.csv(file, function(data) {
         svg.selectAll("circle")
