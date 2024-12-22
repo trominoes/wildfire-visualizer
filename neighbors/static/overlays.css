@@ -201,4 +201,8 @@
     .win-loss-elements {
         padding: 0px 40px;
     }
+
+    .modal-wrap {
+        padding-top: 100px;
+    }
 }
