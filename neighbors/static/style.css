@@ -245,7 +245,7 @@ footer {
     padding: 35px 0px;
 }
 
-@media screen and (max-width: 1260px) {
+@media screen and (max-width: 1270px) {
     #game-container {
         margin: 0 5%;
     }
