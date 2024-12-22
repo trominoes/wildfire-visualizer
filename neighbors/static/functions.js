@@ -172,7 +172,7 @@ function closeWinLoss() {
     overlay.classList.add("hidden");
     setTimeout(function () {
         grid.style.opacity = 1;
-        container.style.maskImage = "radial-gradient(circle, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0) 100%)";
+        container.style.maskImage = "radial-gradient(circle, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 100%)";
     }, 100);
 }
 

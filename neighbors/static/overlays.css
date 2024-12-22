@@ -185,3 +185,20 @@
 .courier {
     font-family: 'Courier New', Courier, monospace;
 }
+
+
+@media screen and (max-width: 850px) {
+    .welcome-elements {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .welcome-elements {
+        width: 70%;
+    }
+
+    .win-loss-elements {
+        padding: 0px 40px;
+    }
+}

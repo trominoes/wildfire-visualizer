@@ -4,6 +4,7 @@
 <head>
   <title>Neighbors - Methodology</title>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="/neighbors/static/functions.js" defer></script>
   <link rel="icon" type="image/x-icon" href="/neighbors/static/neighbors-icon.png">
   <link rel="stylesheet" href="/neighbors/static/overlays.css" />
@@ -20,10 +21,93 @@
     </div>
   </header>
 
-  <section class="about-text">
+  <section class="method-text">
     <div>
       <h2 style="margin-bottom: 5px;">Methodology</h2>
-      <p class="about-desc">This page under construction!</p>
+      <p class="method-desc">“Neighbors” is a word associations game, designed and realized in December 2024. It’s my
+        second website-from-scratch, and an exploration of the foundational layer of modern LLM’s. View the source code
+        <a href="https://github.com/trominoes/trominoes.github.io">here.</a>
+      </p>
+      <h3 class="method-heading">About GloVe</h3>
+      <p class="method-desc">From the start, I used GloVe to develop the word lists and vocabulary behind “Neighbors.”
+        GloVe stands for Global Vectors for Word Representation, and was created by Jeffrey Pennington, Richard Socher,
+        and Christopher D. Manning in 2014. At its core, GloVe is an unsupervised learning algorithm that computes
+        vector representations of words, based on each word’s probability of co-occurrence with other words in a given
+        training corpus. </p>
+      <p class="method-desc">These vector representations contain rich information about words’ similarity and
+        relationships to one another. For example, the ‘nearest neighbors’ of a word vector (i.e. vectors with least
+        Euclidean distance from the target word) are those which we’d expect to have the most related definitions or
+        linguistic uses; they are often synonyms with the target word or appear in the same phrases/contexts. (This
+        property of GloVe is ultimately what the game relies upon to depict similar words!)</p>
+      <p class="method-desc">Vector representations also reveal ‘linear substructures,’ or a kind of quantified relation
+        between word pairs. That is, vector differences can capture verifiable distinctions in meaning:</p>
+      <div style="text-align: center;"><img src="https://nlp.stanford.edu/projects/glove/images/man_woman.jpg" class="method-img"></div>
+      <p class="method-desc">While the game does not make use of these substructures, I think it’s a fascinating feature
+        of GloVe worth further inspection.</p>
+      <p class="method-desc">In “Neighbors,” I utilized the pre-trained, 400,000-word dataset from Wikipedia 2014 and
+        Gigaword 5. Future extensions of this game might involve deriving new vector representations of words based on a
+        different/updated corpus of my choosing!</p>
+      <h3 class="method-heading">Word validation</h3>
+      <p class="method-desc">Though GloVe’s 400k-word dataset provided a good baseline, I found that not all words would
+        be suitable for a game. Within the pre-trained model, there are fragments, like (, ‘nt, and ’re. There are
+        obscure and esoteric names, like Chernyakhov and Zhiqing. Last, there are words that are just a little boring,
+        like there, two, and Thursday. </p>
+      <p class="method-desc">To improve the list of starting words for “Neighbors,” I selected a range of words that
+        would feel familiar but not extremely common. (By order of frequency, this was the 2500th to the 4500th word.)
+        Then, each word was validated such that it had to contain only alphabetic characters, be greater than three
+        characters long, and not be a common proper noun like a first name or country. I also manually sorted through
+        the list to block words that might lead to problematic content. A total of 1530 start words were passed.</p>
+      <p class="method-desc">Next, I selected a range of words that would serve as the total vocabulary of the game, and
+        might be shown as neighboring words to the player. (This was roughly the top 10,000 words in the dataset, by
+        frequency.) For each word, I found its six nearest valid neighbors, which were required to contain only
+        alphabetic characters, and not be a simple variation of the target word (e.g. attaching or removing an ‘-s’ to
+        pluralize.) Then, the target word and list of six valid neighbors were passed as a key-value pair into a
+        dictionary/map. All vector information was stripped from the variables.</p>
+      <p class="method-desc">Finally, my Python program exported the starting word list and neighbors dictionary/map as
+        JSON’s, for the website’s use.</p>
+      <h3 class="method-heading">Randomization</h3>
+      <p class="method-desc">Like similar online word games (see below for inspirations), I wanted “Neighbors” to follow
+        a randomized daily puzzle format. But because this GitHub page is hosted statically, daily start words and
+        solutions cannot be sent server-side and must be generated dynamically from the browser. </p>
+      <p class="method-desc">To ensure that all devices would receive the same puzzle on the same day, I used a series
+        of date-based hashes and a seeded Pseudo-Random Number Generator (PRNG). </p>
+      <p class="method-desc">Selection of the start word must be randomized, to avoid any day-by-day ordering in
+        difficulty. I chose to shuffle the valid word list before export, thereby ‘baking in’ randomness and allowing
+        start words to be chosen iteratively. A current date hash computes the number of days since a reference date,
+        and passes that value as an index of the list. The start word at that index is selected, which is unique over a
+        period of 1530 days.</p>
+      <p class="method-desc">Selecting the solution path required multiple iterations of selecting a random neighbor of
+        the target word. In this case, I used the cyrb128 hash to first generate a 128-bit random seed from the current
+        date, and then seeded the sfc32 PRNG to randomly select neighbors. Both of those functions utilize code from <a
+          href="https://stackoverflow.com/questions/521295/seeding-the-random-number-generator-in-javascript">this Stack
+          Overflow response.</a></p>
+      <p class="method-desc">Thanks Internet!</p>
+      <h3 class="method-heading">The hex grid</h3>
+      <p class="method-desc">My original prototype of “Neighbors” in Python and MatPlotLib used Principal Component
+        Analysis (PCA), a data analysis and visualization technique, to reduce the dataset’s high-dimensional vectors to
+        two dimensions. Target words and their neighbors were then depicted in 2D space, with target words centered at
+        the origin and neighbors’ positions being defined by their vector difference and distance.</p>
+      <p class="method-desc">However, I eventually discarded this approach in favor of cleanliness and playability. The
+        player loses some information about words’ relationships, but neighbors do not collide with each other on
+        screen, and the game is better suited for small screen devices. Instead of PCA, a target words’ neighbors are
+        represented an equal distance away in uniform hexagonal cells.</p>
+      <p class="method-desc">This design is a familiar one to many word game players (see below), but also innovates
+        with its much larger grid system. Because I wanted cells and neighbors to be revealed along the player’s search
+        path, I needed to build a CSS Grid that was wide and tall enough to accommodate six-move search paths in any
+        direction. My solution was a roughly 13-by-13 grid of hex cells, with the puzzle’s start word located at the
+        center. </p>
+      <p class="method-desc">On click of a neighbor word, I designed Javascript functions to pull new neighbors from the
+        dictionary/map JSON, populate new hex cells, and check for a game win or loss. I also wrote a grid-centering
+        function to re-center the hex grid around the current target word.</p>
+      <h3 class="method-heading">Inspirations</h3>
+      <p class="method-desc">If you’ve made it this far, thanks for reading! Please start a conversation with me if you
+        have any questions about anything I’ve written here. </p>
+      <p class="method-desc">Before I go, I’d like to acknowledge/admire some key inspirations, without which this game
+        would not otherwise exist. NYT’s Spelling Bee and spellbee.org, which heavily influenced the UI and general
+        appearance of this site. Wordle, which convinced me that I could build it all myself. And GamePigeon’s word
+        hunt. I love word hunt.</p>
+      <p class="method-desc">Minoo</p>
+
     </div>
 
   </section>
