@@ -30,7 +30,7 @@
       </p>
       <h3 class="method-heading">About GloVe</h3>
       <p class="method-desc">From the start, I used GloVe to develop the word lists and vocabulary behind “Neighbors.”
-        GloVe stands for Global Vectors for Word Representation, and was created by Jeffrey Pennington, Richard Socher,
+        GloVe stands for <a href="https://nlp.stanford.edu/projects/glove/">Global Vectors for Word Representation</a>, and was created by Jeffrey Pennington, Richard Socher,
         and Christopher D. Manning in 2014. At its core, GloVe is an unsupervised learning algorithm that computes
         vector representations of words, based on each word’s probability of co-occurrence with other words in a given
         training corpus. </p>
@@ -49,9 +49,9 @@
         different/updated corpus of my choosing!</p>
       <h3 class="method-heading">Word validation</h3>
       <p class="method-desc">Though GloVe’s 400k-word dataset provided a good baseline, I found that not all words would
-        be suitable for a game. Within the pre-trained model, there are fragments, like (, ‘nt, and ’re. There are
-        obscure and esoteric names, like Chernyakhov and Zhiqing. Last, there are words that are just a little boring,
-        like there, two, and Thursday. </p>
+        be suitable for a game. Within the pre-trained model, there are fragments, like <span class="method-bold">(</span>, <span class="method-bold">‘nt</span>, and <span class="method-bold">’re</span>. There are
+        obscure and esoteric names, like <span class="method-bold">Chernyakhov</span> and <span class="method-bold">Zhiqing</span>. Last, there are words that are just a little boring,
+        like <span class="method-bold">there</span>, <span class="method-bold">two</span>, and <span class="method-bold">Thursday</span>. </p>
       <p class="method-desc">To improve the list of starting words for “Neighbors,” I selected a range of words that
         would feel familiar but not extremely common. (By order of frequency, this was the 2500th to the 4500th word.)
         Then, each word was validated such that it had to contain only alphabetic characters, be greater than three
